@@ -3,6 +3,10 @@ package md.ungureanu.ira.data;
 import com.mysql.jdbc.PreparedStatement;
 import java.sql.*;
 
+import com.fasterxml.jackson.annotation.JsonInclude;
+import com.fasterxml.jackson.annotation.JsonInclude.Include;
+
+@JsonInclude(Include.NON_EMPTY)
 public class Contact {
     public int id;
     private String name;

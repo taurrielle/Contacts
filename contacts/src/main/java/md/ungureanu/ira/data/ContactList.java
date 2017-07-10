@@ -6,20 +6,21 @@ import java.util.ArrayList;
 public class ContactList {
     public ArrayList<Contact> contactList = new ArrayList<Contact>();
 
-    public void importInArray(Connection connect) throws Exception{
+    public void importInArray() throws Exception{
         Statement statement;
         ResultSet resultSet;
+        DBConnection con = new DBConnection("testDB", "root", "08121996");
+        con.connectToDB();
         try {
-            statement = connect.createStatement();
+            statement = con.connect().createStatement();
             resultSet = statement.executeQuery("SELECT * FROM contacts");
 
             while (resultSet.next()) {
                 Contact contact = new Contact(resultSet.getInt("id"));
 
-                contact.getContact(connect);
+                contact.getContact(con.connect());
                 contactList.add(contact);
             }
-
         }
         catch (SQLException se){
             throw se;
@@ -28,10 +29,7 @@ public class ContactList {
             throw e;
         }
         finally {
-
-            connect.close();
+            con.close();
         }
     }
-
-
 }

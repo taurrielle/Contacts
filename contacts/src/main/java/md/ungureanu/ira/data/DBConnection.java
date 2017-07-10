@@ -9,7 +9,7 @@ public class DBConnection {
     private String password;
     private Connection connect;
 
-    DBConnection(String db, String user, String pass){
+    public DBConnection(String db, String user, String pass){
         dataBase = db;
         userName = user;
         password = pass;
