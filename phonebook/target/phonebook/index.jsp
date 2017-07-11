@@ -8,7 +8,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.16/angular.min.js"></script>
 
-    <script type="text/javascript" src="include/app.js"></script>
+    <script type="text/javascript" src="include/js/app.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
@@ -122,7 +122,6 @@
             </table>
         </form>
     </div>
-    <div class="footer">AngularJS Demo - Copyright © avaldes.com</div>
 </div>
 </body>
 </html>

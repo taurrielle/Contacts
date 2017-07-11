@@ -74,14 +74,6 @@ td.side:hover {
     padding:10px;
 }
 
-.footer {
-    background-color:black;
-    color:white;
-    clear:both;
-    text-align:center;
-    padding:5px;
-}
-
 /* Label Style */
 .display {
     font-family: verdana, sans-serif;
