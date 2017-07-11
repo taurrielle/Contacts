@@ -1,8 +1,7 @@
-<html ng-app="app">
+<html ng-app="ContactsApp">
 <head>
     <title>Show Contacts</title>
     <link rel="stylesheet" href="/include/styles.css">
-
     <%--<script src="https://cdnjs.cloudflare.com/ajax/libs/ng2-bootstrap/x.x.x/ng2-bootstrap.min.js"></script>--%>
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
@@ -22,7 +21,7 @@
         <div class="LeftPanelHeader">{{ navTitle }}</div>
         <table class="side">
             <tr ng-repeat="c in contacts" ng-click="getContact(c.id)" >
-                <td class="side">{{c.name}}</td>
+                <td class="side">{{ c.name }}</td>
             </tr>
         </table>
     </div>
