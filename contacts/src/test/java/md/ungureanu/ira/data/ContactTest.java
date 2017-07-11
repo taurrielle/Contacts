@@ -12,7 +12,7 @@ public class ContactTest {
         Contact newContact = new Contact("Daniel", "Surdu", "078060742", "okdan96@gmail.com");
         Assertions.assertEquals(0, newContact.id);
 
-        DBConnection con = new DBConnection("testDB", "root", "08121996");
+        DBConnection con = new DBConnection("testDB", "practica", "OKdan96_gmail_com");
         con.connectToDB();
         Statement statement = con.connect().createStatement();
         statement.addBatch("DELETE FROM contacts");
@@ -26,7 +26,7 @@ public class ContactTest {
     @Test
     public void testGetContact() throws Exception {
         Contact newContact = new Contact(1);
-        DBConnection con = new DBConnection("testDB", "root", "08121996");
+        DBConnection con = new DBConnection("testDB", "practica", "OKdan96_gmail_com");
         con.connectToDB();
         newContact.getContact(con.connect());
         Assertions.assertEquals("Daniel", newContact.getName());

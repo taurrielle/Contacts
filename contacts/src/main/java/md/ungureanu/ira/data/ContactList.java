@@ -9,7 +9,7 @@ public class ContactList {
     public void importInArray() throws Exception{
         Statement statement;
         ResultSet resultSet;
-        DBConnection con = new DBConnection("testDB", "root", "08121996");
+        DBConnection con = new DBConnection("testDB", "practica", "OKdan96_gmail_com");
         con.connectToDB();
         try {
             statement = con.connect().createStatement();
