@@ -27,7 +27,7 @@
     </div>
 
     <%--<div class="RightPanel">--%>
-        <%--<image src="{{actor.image}}" width="220">--%>
+        <%--<image src="{{contact.image}}" width="220">--%>
     <%--</div>--%>
 
     <div class="MainBody">
@@ -36,7 +36,7 @@
                 <tr>
                     <td><input type="text" ng-model="searchName" size="30"></td>
                     <td>
-                        <button type="button" ng-click="searchActor(searchName)"
+                        <button type="button" ng-click="searchContact(searchName)"
                                 class="btn btn-primary btn-sm">
                             <span class="glyphicon glyphicon-search"></span>Search</button>
                     </td>
@@ -64,7 +64,7 @@
                     </td>
                 </tr>
                 <tr>
-                    <td class="display"><input type="text"
+                    <td class="display"><input id="name" type="text"
                                                ng-model="contact.name" size="30"></td>
                 </tr>
                 <tr>
@@ -102,14 +102,14 @@
                     <td>
                         <table>
                             <tr>
-                                <td><button ng-click="saveActor(actor.id)"
+                                <td><button ng-click="saveContact(contact.id)"
                                             class="btn btn-success btn-sm"
-                                            title="Save actor's details..." ng-disabled="isSaveDisabled">
+                                            title="Save contact's details..." ng-disabled="isSaveDisabled">
                                     <span class="glyphicon glyphicon-plus"></span>
                                     Save </button>
                                 </td>
                                 <td>
-                                    <button ng-click="deleteActor(actor.id)"
+                                    <button ng-click="deleteContact(contact.id)"
                                             class="btn btn-danger btn-sm" ng-disabled="isDeleteDisabled">
                                         <span class="glyphicon glyphicon-trash"></span>
                                         Delete </button></td>

@@ -6,6 +6,7 @@
       </sourceFilesUrls>
     </properties>
     <CLASSES>
+      <root url="file://$USER_HOME$/Downloads/angular.js" />
       <root url="file://$USER_HOME$/Downloads/angular/angular.js" />
     </CLASSES>
     <JAVADOC />

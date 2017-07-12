@@ -19,6 +19,7 @@ public class ContactList {
                 Contact contact = new Contact(resultSet.getInt("id"));
 
                 contact.getContact(con.connect());
+                System.out.println(contact);
                 contactList.add(contact);
             }
         }

@@ -36,16 +36,10 @@
       <file leaf-file-name="Contact.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/md/ungureanu/ira/data/Contact.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1411">
-              <caret line="9" column="16" lean-forward="false" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+            <state relative-caret-position="17">
+              <caret line="9" column="19" lean-forward="false" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="method#Contact#0;class#Contact#0" expanded="false" />
-                <marker date="1499674314067" expanded="true" signature="1488:1513" ph="SELECT name,... " />
-                <marker date="1499674314067" expanded="true" signature="1488:1553" ph="SELECT name,... contacts" />
-                <marker date="1499674314067" expanded="true" signature="1937:1986" ph="INSERT INTO contacts... " />
-                <marker date="1499674314067" expanded="true" signature="2445:2468" ph="SELECT LAST_... " />
-                <marker date="1499674314067" expanded="true" signature="3289:3324" ph="SELECT * FRO... contacts" />
               </folding>
             </state>
           </provider>
@@ -54,24 +48,23 @@
       <file leaf-file-name="ContactTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/md/ungureanu/ira/data/ContactTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="213">
-              <caret line="28" column="8" lean-forward="true" selection-start-line="28" selection-start-column="8" selection-end-line="29" selection-end-column="26" />
+            <state relative-caret-position="339">
+              <caret line="28" column="8" lean-forward="false" selection-start-line="28" selection-start-column="8" selection-end-line="29" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <marker date="1499672394312" expanded="true" signature="581:601" ph="DELETE FROM " />
-                <marker date="1499672394312" expanded="true" signature="633:672" ph="ALTER TABLE contacts... " />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ContactList.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ContactList.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/md/ungureanu/ira/data/ContactList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="11" column="63" lean-forward="false" selection-start-line="11" selection-start-column="63" selection-end-line="11" selection-end-column="63" />
+            <state relative-caret-position="119">
+              <caret line="8" column="29" lean-forward="false" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="29" />
               <folding>
-                <marker date="1499672394276" expanded="true" signature="520:542" ph="SELECT * FRO... contacts" />
+                <element signature="e#164#173#0" expanded="true" />
+                <marker date="1499843674120" expanded="true" signature="520:542" ph="SELECT * FRO... contacts" />
               </folding>
             </state>
           </provider>
@@ -80,17 +73,17 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-711">
+            <state relative-caret-position="119">
               <caret line="7" column="28" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="7" selection-end-column="28" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DBConnection.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DBConnection.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/md/ungureanu/ira/data/DBConnection.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
+            <state relative-caret-position="170">
               <caret line="11" column="18" lean-forward="false" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
               <folding />
             </state>
@@ -100,8 +93,8 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/md/ungureanu/ira/data/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="14" column="35" lean-forward="false" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
+            <state relative-caret-position="289">
+              <caret line="17" column="1" lean-forward="false" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -129,12 +122,12 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/java/md/ungureanu/ira/App.java" />
-        <option value="$PROJECT_DIR$/src/main/java/md/ungureanu/ira/data/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/md/ungureanu/ira/data/DBConnection.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/md/ungureanu/ira/data/ContactTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/md/ungureanu/ira/data/ContactList.java" />
         <option value="$PROJECT_DIR$/src/main/java/md/ungureanu/ira/data/Contact.java" />
+        <option value="$PROJECT_DIR$/src/main/java/md/ungureanu/ira/data/ContactList.java" />
+        <option value="$PROJECT_DIR$/src/main/java/md/ungureanu/ira/data/Main.java" />
       </list>
     </option>
   </component>
@@ -153,9 +146,9 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="57" />
-    <option name="y" value="-4" />
+    <option name="y" value="21" />
     <option name="width" value="1309" />
-    <option name="height" value="772" />
+    <option name="height" value="747" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -175,7 +168,6 @@
     <panes>
       <pane id="Scope" />
       <pane id="PackagesPane" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -242,6 +234,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -275,7 +268,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ContactTest">
+  <component name="RunManager" selected="Application.Main">
     <configuration default="false" name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -812,10 +805,10 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.ContactTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.ContactTest.testGetContact" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.ContactTest.testSaveContact" />
-        <item index="3" class="java.lang.String" itemvalue="Application.Main" />
+        <item index="0" class="java.lang.String" itemvalue="Application.Main" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.ContactTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.ContactTest.testGetContact" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.ContactTest.testSaveContact" />
         <item index="4" class="java.lang.String" itemvalue="JUnit.ContactTest.testSetName" />
       </list>
     </recent_temporary>
@@ -845,6 +838,7 @@
       <workItem from="1499613222805" duration="1314000" />
       <workItem from="1499615659909" duration="507000" />
       <workItem from="1499668113561" duration="4251000" />
+      <workItem from="1499843506745" duration="251000" />
     </task>
     <servers />
   </component>
@@ -881,10 +875,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36670000" />
+    <option name="totallyTimeSpent" value="36921000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="57" y="-4" width="1309" height="772" extended-state="6" />
+    <frame x="57" y="21" width="1309" height="747" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -900,15 +894,15 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39760837" sideWeight="0.49088025" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29147983" sideWeight="0.48051947" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29140127" sideWeight="0.48051947" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287037" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24663678" sideWeight="0.48292294" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24522293" sideWeight="0.48292294" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287037" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23071046" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.234412" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
@@ -943,12 +937,6 @@
           <caret line="103" column="38" lean-forward="true" selection-start-line="103" selection-start-column="11" selection-end-line="103" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#Contact#0;class#Contact#0" expanded="false" />
-            <marker date="1499674314067" expanded="true" signature="1488:1513" ph="SELECT name,... " />
-            <marker date="1499674314067" expanded="true" signature="1488:1553" ph="SELECT name,... contacts" />
-            <marker date="1499674314067" expanded="true" signature="1937:1986" ph="INSERT INTO contacts... " />
-            <marker date="1499674314067" expanded="true" signature="2445:2468" ph="SELECT LAST_... " />
-            <marker date="1499674314067" expanded="true" signature="3289:3324" ph="SELECT * FRO... contacts" />
           </folding>
         </state>
       </provider>
@@ -980,12 +968,6 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#Contact#0;class#Contact#0" expanded="false" />
-            <marker date="1499674314067" expanded="true" signature="1488:1513" ph="SELECT name,... " />
-            <marker date="1499674314067" expanded="true" signature="1488:1553" ph="SELECT name,... contacts" />
-            <marker date="1499674314067" expanded="true" signature="1937:1986" ph="INSERT INTO contacts... " />
-            <marker date="1499674314067" expanded="true" signature="2445:2468" ph="SELECT LAST_... " />
-            <marker date="1499674314067" expanded="true" signature="3289:3324" ph="SELECT * FRO... contacts" />
           </folding>
         </state>
       </provider>
@@ -1012,12 +994,6 @@
           <caret line="108" column="53" lean-forward="false" selection-start-line="103" selection-start-column="11" selection-end-line="103" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#Contact#0;class#Contact#0" expanded="false" />
-            <marker date="1499674314067" expanded="true" signature="1488:1513" ph="SELECT name,... " />
-            <marker date="1499674314067" expanded="true" signature="1488:1553" ph="SELECT name,... contacts" />
-            <marker date="1499674314067" expanded="true" signature="1937:1986" ph="INSERT INTO contacts... " />
-            <marker date="1499674314067" expanded="true" signature="2445:2468" ph="SELECT LAST_... " />
-            <marker date="1499674314067" expanded="true" signature="3289:3324" ph="SELECT * FRO... contacts" />
           </folding>
         </state>
       </provider>
@@ -1050,12 +1026,6 @@
           <caret line="108" column="53" lean-forward="false" selection-start-line="103" selection-start-column="11" selection-end-line="103" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#Contact#0;class#Contact#0" expanded="false" />
-            <marker date="1499674314067" expanded="true" signature="1488:1513" ph="SELECT name,... " />
-            <marker date="1499674314067" expanded="true" signature="1488:1553" ph="SELECT name,... contacts" />
-            <marker date="1499674314067" expanded="true" signature="1937:1986" ph="INSERT INTO contacts... " />
-            <marker date="1499674314067" expanded="true" signature="2445:2468" ph="SELECT LAST_... " />
-            <marker date="1499674314067" expanded="true" signature="3289:3324" ph="SELECT * FRO... contacts" />
           </folding>
         </state>
       </provider>
@@ -1087,12 +1057,6 @@
           <caret line="103" column="38" lean-forward="true" selection-start-line="103" selection-start-column="11" selection-end-line="103" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#Contact#0;class#Contact#0" expanded="false" />
-            <marker date="1499674314067" expanded="true" signature="1488:1513" ph="SELECT name,... " />
-            <marker date="1499674314067" expanded="true" signature="1488:1553" ph="SELECT name,... contacts" />
-            <marker date="1499674314067" expanded="true" signature="1937:1986" ph="INSERT INTO contacts... " />
-            <marker date="1499674314067" expanded="true" signature="2445:2468" ph="SELECT LAST_... " />
-            <marker date="1499674314067" expanded="true" signature="3289:3324" ph="SELECT * FRO... contacts" />
           </folding>
         </state>
       </provider>
@@ -1124,12 +1088,6 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#Contact#0;class#Contact#0" expanded="false" />
-            <marker date="1499674314067" expanded="true" signature="1488:1513" ph="SELECT name,... " />
-            <marker date="1499674314067" expanded="true" signature="1488:1553" ph="SELECT name,... contacts" />
-            <marker date="1499674314067" expanded="true" signature="1937:1986" ph="INSERT INTO contacts... " />
-            <marker date="1499674314067" expanded="true" signature="2445:2468" ph="SELECT LAST_... " />
-            <marker date="1499674314067" expanded="true" signature="3289:3324" ph="SELECT * FRO... contacts" />
           </folding>
         </state>
       </provider>
@@ -1164,12 +1122,6 @@
           <caret line="108" column="53" lean-forward="true" selection-start-line="103" selection-start-column="11" selection-end-line="103" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#Contact#0;class#Contact#0" expanded="false" />
-            <marker date="1499674314067" expanded="true" signature="1488:1513" ph="SELECT name,... " />
-            <marker date="1499674314067" expanded="true" signature="1488:1553" ph="SELECT name,... contacts" />
-            <marker date="1499674314067" expanded="true" signature="1937:1986" ph="INSERT INTO contacts... " />
-            <marker date="1499674314067" expanded="true" signature="2445:2468" ph="SELECT LAST_... " />
-            <marker date="1499674314067" expanded="true" signature="3289:3324" ph="SELECT * FRO... contacts" />
           </folding>
         </state>
       </provider>
@@ -1194,12 +1146,6 @@
           <caret line="108" column="53" lean-forward="false" selection-start-line="103" selection-start-column="11" selection-end-line="103" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#Contact#0;class#Contact#0" expanded="false" />
-            <marker date="1499674314067" expanded="true" signature="1488:1513" ph="SELECT name,... " />
-            <marker date="1499674314067" expanded="true" signature="1488:1553" ph="SELECT name,... contacts" />
-            <marker date="1499674314067" expanded="true" signature="1937:1986" ph="INSERT INTO contacts... " />
-            <marker date="1499674314067" expanded="true" signature="2445:2468" ph="SELECT LAST_... " />
-            <marker date="1499674314067" expanded="true" signature="3289:3324" ph="SELECT * FRO... contacts" />
           </folding>
         </state>
       </provider>
@@ -1231,12 +1177,6 @@
           <caret line="103" column="38" lean-forward="true" selection-start-line="103" selection-start-column="11" selection-end-line="103" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#Contact#0;class#Contact#0" expanded="false" />
-            <marker date="1499674314067" expanded="true" signature="1488:1513" ph="SELECT name,... " />
-            <marker date="1499674314067" expanded="true" signature="1488:1553" ph="SELECT name,... contacts" />
-            <marker date="1499674314067" expanded="true" signature="1937:1986" ph="INSERT INTO contacts... " />
-            <marker date="1499674314067" expanded="true" signature="2445:2468" ph="SELECT LAST_... " />
-            <marker date="1499674314067" expanded="true" signature="3289:3324" ph="SELECT * FRO... contacts" />
           </folding>
         </state>
       </provider>
@@ -1268,12 +1208,6 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#Contact#0;class#Contact#0" expanded="false" />
-            <marker date="1499674314067" expanded="true" signature="1488:1513" ph="SELECT name,... " />
-            <marker date="1499674314067" expanded="true" signature="1488:1553" ph="SELECT name,... contacts" />
-            <marker date="1499674314067" expanded="true" signature="1937:1986" ph="INSERT INTO contacts... " />
-            <marker date="1499674314067" expanded="true" signature="2445:2468" ph="SELECT LAST_... " />
-            <marker date="1499674314067" expanded="true" signature="3289:3324" ph="SELECT * FRO... contacts" />
           </folding>
         </state>
       </provider>
@@ -1290,65 +1224,58 @@
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/5d89da5b-e7cb-4ea0-8fc0-1898010f3909/console.sql" />
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/4b88b6ac-336d-48ff-b559-8d5e14cf42fe/console.sql" />
     <entry file="file://$PROJECT_DIR$/npm-debug.log" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/md/ungureanu/ira/data/ContactList.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="11" column="63" lean-forward="false" selection-start-line="11" selection-start-column="63" selection-end-line="11" selection-end-column="63" />
-          <folding>
-            <marker date="1499672394276" expanded="true" signature="520:542" ph="SELECT * FRO... contacts" />
-          </folding>
+        <state relative-caret-position="119">
+          <caret line="7" column="28" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="7" selection-end-column="28" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/md/ungureanu/ira/data/DBConnection.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-711">
-          <caret line="7" column="28" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="7" selection-end-column="28" />
+        <state relative-caret-position="170">
+          <caret line="11" column="18" lean-forward="false" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/md/ungureanu/ira/data/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="14" column="35" lean-forward="false" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
+        <state relative-caret-position="289">
+          <caret line="17" column="1" lean-forward="false" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/md/ungureanu/ira/data/Contact.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1411">
-          <caret line="9" column="16" lean-forward="false" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+        <state relative-caret-position="17">
+          <caret line="9" column="19" lean-forward="false" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#Contact#0;class#Contact#0" expanded="false" />
-            <marker date="1499674314067" expanded="true" signature="1488:1513" ph="SELECT name,... " />
-            <marker date="1499674314067" expanded="true" signature="1488:1553" ph="SELECT name,... contacts" />
-            <marker date="1499674314067" expanded="true" signature="1937:1986" ph="INSERT INTO contacts... " />
-            <marker date="1499674314067" expanded="true" signature="2445:2468" ph="SELECT LAST_... " />
-            <marker date="1499674314067" expanded="true" signature="3289:3324" ph="SELECT * FRO... contacts" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/md/ungureanu/ira/data/ContactTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="28" column="8" lean-forward="true" selection-start-line="28" selection-start-column="8" selection-end-line="29" selection-end-column="26" />
+        <state relative-caret-position="339">
+          <caret line="28" column="8" lean-forward="false" selection-start-line="28" selection-start-column="8" selection-end-line="29" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1499672394312" expanded="true" signature="581:601" ph="DELETE FROM " />
-            <marker date="1499672394312" expanded="true" signature="633:672" ph="ALTER TABLE contacts... " />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/md/ungureanu/ira/data/DBConnection.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/md/ungureanu/ira/data/ContactList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="11" column="18" lean-forward="false" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
-          <folding />
+        <state relative-caret-position="119">
+          <caret line="8" column="29" lean-forward="false" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="29" />
+          <folding>
+            <element signature="e#164#173#0" expanded="true" />
+            <marker date="1499843674120" expanded="true" signature="520:542" ph="SELECT * FRO... contacts" />
+          </folding>
         </state>
       </provider>
     </entry>

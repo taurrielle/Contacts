@@ -4,6 +4,7 @@ import md.ungureanu.ira.data.Contact;
 import md.ungureanu.ira.data.ContactList;
 import md.ungureanu.ira.data.DBConnection;
 
+import javax.sound.midi.Track;
 import javax.ws.rs.*;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
@@ -46,12 +47,17 @@ public class Hello {
     }
 
 
-//    @POST
-//    @Path("/post")
-//    @Consumes(MediaType.APPLICATION_JSON)
-//    public Response createTrackInJSON(Track track) {
-//
-//        String result = "Track saved : " + track;
-//        return Response.status(201).entity(result).build();
-//    }
+    @POST
+    @Path("/post")
+    @Consumes(MediaType.APPLICATION_JSON)
+    public Response createContactInJSON(Contact contact) throws Exception {
+
+        DBConnection con = new DBConnection("testDB", "practica", "OKdan96_gmail_com");
+        con.connectToDB();
+
+        contact.saveContact(con.connect());
+
+        String result = "Track saved : " + contact;
+        return Response.status(201).entity(result).build();
+    }
 }

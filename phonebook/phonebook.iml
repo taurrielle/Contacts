@@ -65,6 +65,7 @@
     <orderEntry type="library" name="Maven: javax.ws.rs:javax.ws.rs-api:2.0.1" level="project" />
     <orderEntry type="library" name="Maven: com.sun.jersey:jersey-servlet:1.19.4" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: junit:junit:3.8.1" level="project" />
-    <orderEntry type="library" name="angular.js" level="project" />
+    <orderEntry type="library" exported="" name="angular.js" level="project" />
+    <orderEntry type="library" name="contacts-1.0-SNAPSHOT" level="project" />
   </component>
 </module>
