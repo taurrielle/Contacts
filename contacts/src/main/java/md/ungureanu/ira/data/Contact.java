@@ -3,16 +3,16 @@ package md.ungureanu.ira.data;
 import com.mysql.jdbc.PreparedStatement;
 import java.sql.*;
 
-import com.fasterxml.jackson.annotation.JsonInclude;
-import com.fasterxml.jackson.annotation.JsonInclude.Include;
-
-@JsonInclude(Include.NON_EMPTY)
-public class    Contact {
+//import com.fasterxml.jackson.annotation.JsonInclude;
+//import com.fasterxml.jackson.annotation.JsonInclude.Include;
+//
+//@JsonInclude(Include.NON_EMPTY)
+public class Contact {
     public int id;
-    private String name;
-    private String surname;
-    private String number;
-    private String email;
+    public String name;
+    public String surname;
+    public String number;
+    public String email;
 
     public void setName(String cName){
         name = cName;
@@ -53,6 +53,8 @@ public class    Contact {
     public Contact (int cId){
         this.id = cId;
     }
+
+    public Contact () {}
 
 
 

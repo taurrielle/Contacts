@@ -57,33 +57,31 @@ var app = angular.module("ContactsApp", []);
                 alert("AJAX failed to get data, status=" + status);
             })
         };
-
+*/
         $scope.clearForm = function() {
             $scope.contact = {
-                id:'',
+                // id:'',
                 name:'',
-                birthName:'',
-                birthDate:'',
-                email:'',
-                image:'',
-                active:''
+                surname:'',
+                number:'',
+                email:''
             };
-        }
+        };
 
         $scope.addNew = function(element) {
             $scope.operation="create";
             $scope.clearForm();
-            main.id.focus();
+            // main.name.focus();
             $scope.isSaveDisabled = false;
             $scope.isDeleteDisabled = true;
-        }
+        };
 
         $scope.saveActor = function(id) {
             $scope.jsonObj = angular.toJson($scope.contact, false);
             console.log("[update] data: " + $scope.jsonObj);
 
-            if ($scope.operation == "update") {
-                var response = $http.put('/RestfulWebServiceExample/rest/actors/'
+            /*if ($scope.operation == "update") {
+                var response = $http.put('/rest/contacts/get'
                     + id, $scope.jsonObj);
                 response.success(function(data, status) {
                     console.log("Inside update operation..."
@@ -94,21 +92,22 @@ var app = angular.module("ContactsApp", []);
                 response.error(function(data, status) {
                     alert("AJAX failed to get data, status=" + status);
                 })
-            } else if ($scope.operation == "create") {
-                var response=$http.post('/RestfulWebServiceExample/rest/actors/add',
-                    $scope.jsonObj);
-                response.success(function(data, status) {
-                    console.log("Inside create operation..."
-                        + angular.toJson(data, false) + ", status=" + status);
-                    $scope.resetSearch();
+            } else if ($scope.operation == "create")// {*/
+                var response=$http.post('/rest/contacts/get', $scope.jsonObj);
+                response.then(function onSuccess(data, status) {
+                console.log("Inside create operation..."
+                    + angular.toJson(data, false) + ", status=" + status);
+                // $scope.resetSearch();
+
+                })
+                .catch(function onError(data, status) {
+                    alert("AJAX failed to get data, status=" + status);
                 });
 
-                response.error(function(data, status) {
-                    alert("AJAX failed to get data, status=" + status, scope);
-                })
-            }
-        };
 
+            //}
+        };
+/*
         $scope.deleteActor = function(id) {
             var response = $http.delete(
                 '/RestfulWebServiceExample/rest/actors/' + id);
@@ -143,4 +142,4 @@ var app = angular.module("ContactsApp", []);
             })
         };*/
     // });
-})();
+});
