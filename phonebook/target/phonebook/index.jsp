@@ -51,13 +51,13 @@
 
         <form id="main">
             <table>
-                <tr>
-                    <td class="display_bold"><label for="contact.name">ID:</label></td>
-                </tr>
-                <tr>
-                    <td class="display"><input id="id" type="text"
-                                               ng-model="contact.id" size="4"></td>
-                </tr>
+                <%--<tr>--%>
+                    <%--<td class="display_bold"><label for="name">ID:</label></td>--%>
+                <%--</tr>--%>
+                <%--<tr>--%>
+                    <%--<td class="display"><input id="id" type="text"--%>
+                                               <%--ng-model="contact.id" size="4"></td>--%>
+                <%--</tr>--%>
                 <tr>
                     <td class="display_bold">
                         <label for="name">Name:</label>
@@ -102,14 +102,14 @@
                     <td>
                         <table>
                             <tr>
-                                <td><button ng-click="saveActor(actor.id)"
+                                <td><button ng-click="saveActor(contact.id)"
                                             class="btn btn-success btn-sm"
                                             title="Save actor's details..." ng-disabled="isSaveDisabled">
                                     <span class="glyphicon glyphicon-plus"></span>
                                     Save </button>
                                 </td>
                                 <td>
-                                    <button ng-click="deleteActor(actor.id)"
+                                    <button ng-click="deleteActor(contact.id)"
                                             class="btn btn-danger btn-sm" ng-disabled="isDeleteDisabled">
                                         <span class="glyphicon glyphicon-trash"></span>
                                         Delete </button></td>

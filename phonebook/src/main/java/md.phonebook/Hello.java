@@ -46,12 +46,19 @@ public class Hello {
     }
 
 
-//    @POST
-//    @Path("/post")
-//    @Consumes(MediaType.APPLICATION_JSON)
-//    public Response createTrackInJSON(Track track) {
-//
-//        String result = "Track saved : " + track;
-//        return Response.status(201).entity(result).build();
-//    }
+    @POST
+    @Path("/get")
+    @Consumes(MediaType.APPLICATION_JSON)
+    @Produces(MediaType.APPLICATION_JSON)
+    public Contact createContactInJSON(Contact contact) throws Exception {
+
+        DBConnection con = new DBConnection("testDB", "practica", "OKdan96_gmail_com");
+        con.connectToDB();
+        System.out.println(con);
+
+        contact.saveContact(con.connect());
+        System.out.println("Adding actor with ID: " + contact.getName());
+
+        return contact;
+    }
 }
