@@ -33,32 +33,49 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Contact.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Contact.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/md/ungureanu/ira/data/Contact.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="56" column="22" lean-forward="false" selection-start-line="56" selection-start-column="22" selection-end-line="56" selection-end-column="22" />
+            <state relative-caret-position="884">
+              <caret line="73" column="57" lean-forward="false" selection-start-line="73" selection-start-column="57" selection-end-line="73" selection-end-column="57" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#Contact#0;class#Contact#0" expanded="false" />
-                <marker date="1499890857058" expanded="true" signature="1515:1540" ph="SELECT name,... " />
-                <marker date="1499890857058" expanded="true" signature="1515:1580" ph="SELECT name,... contacts" />
-                <marker date="1499890857058" expanded="true" signature="1964:2013" ph="INSERT INTO contacts... " />
-                <marker date="1499890857058" expanded="true" signature="2472:2495" ph="SELECT LAST_... " />
-                <marker date="1499890857058" expanded="true" signature="3316:3351" ph="SELECT * FRO... contacts" />
+                <element signature="e#435#436#0" expanded="false" />
+                <element signature="e#463#464#0" expanded="false" />
+                <element signature="e#508#509#0" expanded="false" />
+                <element signature="e#542#543#0" expanded="false" />
+                <element signature="e#585#586#0" expanded="false" />
+                <element signature="e#617#618#0" expanded="false" />
+                <element signature="e#658#659#0" expanded="false" />
+                <element signature="e#688#689#0" expanded="false" />
+                <element signature="e#713#714#0" expanded="false" />
+                <element signature="e#738#739#0" expanded="false" />
+                <element signature="e#769#770#0" expanded="false" />
+                <element signature="e#796#797#0" expanded="false" />
+                <element signature="e#830#831#0" expanded="false" />
+                <element signature="e#860#861#0" expanded="false" />
+                <element signature="e#892#893#0" expanded="false" />
+                <element signature="e#920#921#0" expanded="false" />
+                <element signature="e#953#954#0" expanded="false" />
+                <element signature="e#982#983#0" expanded="false" />
+                <element signature="e#1202#1203#0" expanded="false" />
+                <element signature="e#1231#1232#0" expanded="false" />
+                <marker date="1499931829386" expanded="true" signature="1570:1635" ph="SELECT name,... contacts" />
+                <marker date="1499931829386" expanded="true" signature="2019:2068" ph="INSERT INTO contacts... " />
+                <marker date="1499931829386" expanded="true" signature="2527:2550" ph="SELECT LAST_... " />
+                <marker date="1499931829386" expanded="true" signature="3371:3406" ph="SELECT * FRO... contacts" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ContactTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ContactTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/md/ungureanu/ira/data/ContactTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="500">
-              <caret line="28" column="8" lean-forward="false" selection-start-line="28" selection-start-column="8" selection-end-line="29" selection-end-column="26" />
+            <state relative-caret-position="238">
+              <caret line="17" column="26" lean-forward="false" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="26" />
               <folding>
-                <marker date="1499672394312" expanded="true" signature="581:601" ph="DELETE FROM " />
-                <marker date="1499672394312" expanded="true" signature="633:672" ph="ALTER TABLE contacts... " />
+                <marker date="1499931829314" expanded="true" signature="586:606" ph="DELETE FROM " />
+                <marker date="1499931829314" expanded="true" signature="638:677" ph="ALTER TABLE contacts... " />
               </folding>
             </state>
           </provider>
@@ -67,7 +84,7 @@
       <file leaf-file-name="ContactList.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/md/ungureanu/ira/data/ContactList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
+            <state relative-caret-position="170">
               <caret line="11" column="63" lean-forward="false" selection-start-line="11" selection-start-column="63" selection-end-line="11" selection-end-column="63" />
               <folding>
                 <element signature="imports" expanded="false" />
@@ -80,7 +97,7 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
+            <state relative-caret-position="119">
               <caret line="7" column="28" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="7" selection-end-column="28" />
               <folding />
             </state>
@@ -90,9 +107,13 @@
       <file leaf-file-name="DBConnection.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/md/ungureanu/ira/data/DBConnection.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="130">
+            <state relative-caret-position="170">
               <caret line="11" column="18" lean-forward="false" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
-              <folding />
+              <folding>
+                <element signature="imports" expanded="false" />
+                <element signature="e#414#415#0" expanded="false" />
+                <element signature="e#444#445#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -100,7 +121,7 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/md/ungureanu/ira/data/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
+            <state relative-caret-position="238">
               <caret line="14" column="35" lean-forward="false" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
               <folding />
             </state>
@@ -132,9 +153,9 @@
         <option value="$PROJECT_DIR$/src/main/java/md/ungureanu/ira/data/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/md/ungureanu/ira/data/DBConnection.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/md/ungureanu/ira/data/ContactTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/md/ungureanu/ira/data/ContactList.java" />
         <option value="$PROJECT_DIR$/src/main/java/md/ungureanu/ira/data/Contact.java" />
+        <option value="$PROJECT_DIR$/src/test/java/md/ungureanu/ira/data/ContactTest.java" />
       </list>
     </option>
   </component>
@@ -173,6 +194,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -239,9 +261,8 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -249,7 +270,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../phonebook" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -846,6 +867,11 @@
       <workItem from="1499615659909" duration="507000" />
       <workItem from="1499668113561" duration="4251000" />
       <workItem from="1499890483967" duration="701000" />
+      <workItem from="1499931643735" duration="298000" />
+      <workItem from="1499933101121" duration="108000" />
+      <workItem from="1499933848338" duration="599000" />
+      <workItem from="1500014076161" duration="307000" />
+      <workItem from="1500016033771" duration="1154000" />
     </task>
     <servers />
   </component>
@@ -882,10 +908,11 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37371000" />
+    <option name="totallyTimeSpent" value="39837000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="57" y="-4" width="1309" height="772" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -902,7 +929,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287037" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23071046" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16806723" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962668" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -942,13 +969,30 @@
         <state relative-caret-position="1800">
           <caret line="103" column="38" lean-forward="true" selection-start-line="103" selection-start-column="11" selection-end-line="103" selection-end-column="38" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#Contact#0;class#Contact#0" expanded="false" />
-            <marker date="1499890857058" expanded="true" signature="1515:1540" ph="SELECT name,... " />
-            <marker date="1499890857058" expanded="true" signature="1515:1580" ph="SELECT name,... contacts" />
-            <marker date="1499890857058" expanded="true" signature="1964:2013" ph="INSERT INTO contacts... " />
-            <marker date="1499890857058" expanded="true" signature="2472:2495" ph="SELECT LAST_... " />
-            <marker date="1499890857058" expanded="true" signature="3316:3351" ph="SELECT * FRO... contacts" />
+            <element signature="e#435#436#0" expanded="false" />
+            <element signature="e#463#464#0" expanded="false" />
+            <element signature="e#508#509#0" expanded="false" />
+            <element signature="e#542#543#0" expanded="false" />
+            <element signature="e#585#586#0" expanded="false" />
+            <element signature="e#617#618#0" expanded="false" />
+            <element signature="e#658#659#0" expanded="false" />
+            <element signature="e#688#689#0" expanded="false" />
+            <element signature="e#713#714#0" expanded="false" />
+            <element signature="e#738#739#0" expanded="false" />
+            <element signature="e#769#770#0" expanded="false" />
+            <element signature="e#796#797#0" expanded="false" />
+            <element signature="e#830#831#0" expanded="false" />
+            <element signature="e#860#861#0" expanded="false" />
+            <element signature="e#892#893#0" expanded="false" />
+            <element signature="e#920#921#0" expanded="false" />
+            <element signature="e#953#954#0" expanded="false" />
+            <element signature="e#982#983#0" expanded="false" />
+            <element signature="e#1202#1203#0" expanded="false" />
+            <element signature="e#1231#1232#0" expanded="false" />
+            <marker date="1499931829386" expanded="true" signature="1570:1635" ph="SELECT name,... contacts" />
+            <marker date="1499931829386" expanded="true" signature="2019:2068" ph="INSERT INTO contacts... " />
+            <marker date="1499931829386" expanded="true" signature="2527:2550" ph="SELECT LAST_... " />
+            <marker date="1499931829386" expanded="true" signature="3371:3406" ph="SELECT * FRO... contacts" />
           </folding>
         </state>
       </provider>
@@ -979,13 +1023,30 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#Contact#0;class#Contact#0" expanded="false" />
-            <marker date="1499890857058" expanded="true" signature="1515:1540" ph="SELECT name,... " />
-            <marker date="1499890857058" expanded="true" signature="1515:1580" ph="SELECT name,... contacts" />
-            <marker date="1499890857058" expanded="true" signature="1964:2013" ph="INSERT INTO contacts... " />
-            <marker date="1499890857058" expanded="true" signature="2472:2495" ph="SELECT LAST_... " />
-            <marker date="1499890857058" expanded="true" signature="3316:3351" ph="SELECT * FRO... contacts" />
+            <element signature="e#435#436#0" expanded="false" />
+            <element signature="e#463#464#0" expanded="false" />
+            <element signature="e#508#509#0" expanded="false" />
+            <element signature="e#542#543#0" expanded="false" />
+            <element signature="e#585#586#0" expanded="false" />
+            <element signature="e#617#618#0" expanded="false" />
+            <element signature="e#658#659#0" expanded="false" />
+            <element signature="e#688#689#0" expanded="false" />
+            <element signature="e#713#714#0" expanded="false" />
+            <element signature="e#738#739#0" expanded="false" />
+            <element signature="e#769#770#0" expanded="false" />
+            <element signature="e#796#797#0" expanded="false" />
+            <element signature="e#830#831#0" expanded="false" />
+            <element signature="e#860#861#0" expanded="false" />
+            <element signature="e#892#893#0" expanded="false" />
+            <element signature="e#920#921#0" expanded="false" />
+            <element signature="e#953#954#0" expanded="false" />
+            <element signature="e#982#983#0" expanded="false" />
+            <element signature="e#1202#1203#0" expanded="false" />
+            <element signature="e#1231#1232#0" expanded="false" />
+            <marker date="1499931829386" expanded="true" signature="1570:1635" ph="SELECT name,... contacts" />
+            <marker date="1499931829386" expanded="true" signature="2019:2068" ph="INSERT INTO contacts... " />
+            <marker date="1499931829386" expanded="true" signature="2527:2550" ph="SELECT LAST_... " />
+            <marker date="1499931829386" expanded="true" signature="3371:3406" ph="SELECT * FRO... contacts" />
           </folding>
         </state>
       </provider>
@@ -1011,13 +1072,30 @@
         <state relative-caret-position="1820">
           <caret line="108" column="53" lean-forward="false" selection-start-line="103" selection-start-column="11" selection-end-line="103" selection-end-column="38" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#Contact#0;class#Contact#0" expanded="false" />
-            <marker date="1499890857058" expanded="true" signature="1515:1540" ph="SELECT name,... " />
-            <marker date="1499890857058" expanded="true" signature="1515:1580" ph="SELECT name,... contacts" />
-            <marker date="1499890857058" expanded="true" signature="1964:2013" ph="INSERT INTO contacts... " />
-            <marker date="1499890857058" expanded="true" signature="2472:2495" ph="SELECT LAST_... " />
-            <marker date="1499890857058" expanded="true" signature="3316:3351" ph="SELECT * FRO... contacts" />
+            <element signature="e#435#436#0" expanded="false" />
+            <element signature="e#463#464#0" expanded="false" />
+            <element signature="e#508#509#0" expanded="false" />
+            <element signature="e#542#543#0" expanded="false" />
+            <element signature="e#585#586#0" expanded="false" />
+            <element signature="e#617#618#0" expanded="false" />
+            <element signature="e#658#659#0" expanded="false" />
+            <element signature="e#688#689#0" expanded="false" />
+            <element signature="e#713#714#0" expanded="false" />
+            <element signature="e#738#739#0" expanded="false" />
+            <element signature="e#769#770#0" expanded="false" />
+            <element signature="e#796#797#0" expanded="false" />
+            <element signature="e#830#831#0" expanded="false" />
+            <element signature="e#860#861#0" expanded="false" />
+            <element signature="e#892#893#0" expanded="false" />
+            <element signature="e#920#921#0" expanded="false" />
+            <element signature="e#953#954#0" expanded="false" />
+            <element signature="e#982#983#0" expanded="false" />
+            <element signature="e#1202#1203#0" expanded="false" />
+            <element signature="e#1231#1232#0" expanded="false" />
+            <marker date="1499931829386" expanded="true" signature="1570:1635" ph="SELECT name,... contacts" />
+            <marker date="1499931829386" expanded="true" signature="2019:2068" ph="INSERT INTO contacts... " />
+            <marker date="1499931829386" expanded="true" signature="2527:2550" ph="SELECT LAST_... " />
+            <marker date="1499931829386" expanded="true" signature="3371:3406" ph="SELECT * FRO... contacts" />
           </folding>
         </state>
       </provider>
@@ -1049,13 +1127,30 @@
         <state relative-caret-position="1820">
           <caret line="108" column="53" lean-forward="false" selection-start-line="103" selection-start-column="11" selection-end-line="103" selection-end-column="38" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#Contact#0;class#Contact#0" expanded="false" />
-            <marker date="1499890857058" expanded="true" signature="1515:1540" ph="SELECT name,... " />
-            <marker date="1499890857058" expanded="true" signature="1515:1580" ph="SELECT name,... contacts" />
-            <marker date="1499890857058" expanded="true" signature="1964:2013" ph="INSERT INTO contacts... " />
-            <marker date="1499890857058" expanded="true" signature="2472:2495" ph="SELECT LAST_... " />
-            <marker date="1499890857058" expanded="true" signature="3316:3351" ph="SELECT * FRO... contacts" />
+            <element signature="e#435#436#0" expanded="false" />
+            <element signature="e#463#464#0" expanded="false" />
+            <element signature="e#508#509#0" expanded="false" />
+            <element signature="e#542#543#0" expanded="false" />
+            <element signature="e#585#586#0" expanded="false" />
+            <element signature="e#617#618#0" expanded="false" />
+            <element signature="e#658#659#0" expanded="false" />
+            <element signature="e#688#689#0" expanded="false" />
+            <element signature="e#713#714#0" expanded="false" />
+            <element signature="e#738#739#0" expanded="false" />
+            <element signature="e#769#770#0" expanded="false" />
+            <element signature="e#796#797#0" expanded="false" />
+            <element signature="e#830#831#0" expanded="false" />
+            <element signature="e#860#861#0" expanded="false" />
+            <element signature="e#892#893#0" expanded="false" />
+            <element signature="e#920#921#0" expanded="false" />
+            <element signature="e#953#954#0" expanded="false" />
+            <element signature="e#982#983#0" expanded="false" />
+            <element signature="e#1202#1203#0" expanded="false" />
+            <element signature="e#1231#1232#0" expanded="false" />
+            <marker date="1499931829386" expanded="true" signature="1570:1635" ph="SELECT name,... contacts" />
+            <marker date="1499931829386" expanded="true" signature="2019:2068" ph="INSERT INTO contacts... " />
+            <marker date="1499931829386" expanded="true" signature="2527:2550" ph="SELECT LAST_... " />
+            <marker date="1499931829386" expanded="true" signature="3371:3406" ph="SELECT * FRO... contacts" />
           </folding>
         </state>
       </provider>
@@ -1086,13 +1181,30 @@
         <state relative-caret-position="1800">
           <caret line="103" column="38" lean-forward="true" selection-start-line="103" selection-start-column="11" selection-end-line="103" selection-end-column="38" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#Contact#0;class#Contact#0" expanded="false" />
-            <marker date="1499890857058" expanded="true" signature="1515:1540" ph="SELECT name,... " />
-            <marker date="1499890857058" expanded="true" signature="1515:1580" ph="SELECT name,... contacts" />
-            <marker date="1499890857058" expanded="true" signature="1964:2013" ph="INSERT INTO contacts... " />
-            <marker date="1499890857058" expanded="true" signature="2472:2495" ph="SELECT LAST_... " />
-            <marker date="1499890857058" expanded="true" signature="3316:3351" ph="SELECT * FRO... contacts" />
+            <element signature="e#435#436#0" expanded="false" />
+            <element signature="e#463#464#0" expanded="false" />
+            <element signature="e#508#509#0" expanded="false" />
+            <element signature="e#542#543#0" expanded="false" />
+            <element signature="e#585#586#0" expanded="false" />
+            <element signature="e#617#618#0" expanded="false" />
+            <element signature="e#658#659#0" expanded="false" />
+            <element signature="e#688#689#0" expanded="false" />
+            <element signature="e#713#714#0" expanded="false" />
+            <element signature="e#738#739#0" expanded="false" />
+            <element signature="e#769#770#0" expanded="false" />
+            <element signature="e#796#797#0" expanded="false" />
+            <element signature="e#830#831#0" expanded="false" />
+            <element signature="e#860#861#0" expanded="false" />
+            <element signature="e#892#893#0" expanded="false" />
+            <element signature="e#920#921#0" expanded="false" />
+            <element signature="e#953#954#0" expanded="false" />
+            <element signature="e#982#983#0" expanded="false" />
+            <element signature="e#1202#1203#0" expanded="false" />
+            <element signature="e#1231#1232#0" expanded="false" />
+            <marker date="1499931829386" expanded="true" signature="1570:1635" ph="SELECT name,... contacts" />
+            <marker date="1499931829386" expanded="true" signature="2019:2068" ph="INSERT INTO contacts... " />
+            <marker date="1499931829386" expanded="true" signature="2527:2550" ph="SELECT LAST_... " />
+            <marker date="1499931829386" expanded="true" signature="3371:3406" ph="SELECT * FRO... contacts" />
           </folding>
         </state>
       </provider>
@@ -1123,13 +1235,30 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#Contact#0;class#Contact#0" expanded="false" />
-            <marker date="1499890857058" expanded="true" signature="1515:1540" ph="SELECT name,... " />
-            <marker date="1499890857058" expanded="true" signature="1515:1580" ph="SELECT name,... contacts" />
-            <marker date="1499890857058" expanded="true" signature="1964:2013" ph="INSERT INTO contacts... " />
-            <marker date="1499890857058" expanded="true" signature="2472:2495" ph="SELECT LAST_... " />
-            <marker date="1499890857058" expanded="true" signature="3316:3351" ph="SELECT * FRO... contacts" />
+            <element signature="e#435#436#0" expanded="false" />
+            <element signature="e#463#464#0" expanded="false" />
+            <element signature="e#508#509#0" expanded="false" />
+            <element signature="e#542#543#0" expanded="false" />
+            <element signature="e#585#586#0" expanded="false" />
+            <element signature="e#617#618#0" expanded="false" />
+            <element signature="e#658#659#0" expanded="false" />
+            <element signature="e#688#689#0" expanded="false" />
+            <element signature="e#713#714#0" expanded="false" />
+            <element signature="e#738#739#0" expanded="false" />
+            <element signature="e#769#770#0" expanded="false" />
+            <element signature="e#796#797#0" expanded="false" />
+            <element signature="e#830#831#0" expanded="false" />
+            <element signature="e#860#861#0" expanded="false" />
+            <element signature="e#892#893#0" expanded="false" />
+            <element signature="e#920#921#0" expanded="false" />
+            <element signature="e#953#954#0" expanded="false" />
+            <element signature="e#982#983#0" expanded="false" />
+            <element signature="e#1202#1203#0" expanded="false" />
+            <element signature="e#1231#1232#0" expanded="false" />
+            <marker date="1499931829386" expanded="true" signature="1570:1635" ph="SELECT name,... contacts" />
+            <marker date="1499931829386" expanded="true" signature="2019:2068" ph="INSERT INTO contacts... " />
+            <marker date="1499931829386" expanded="true" signature="2527:2550" ph="SELECT LAST_... " />
+            <marker date="1499931829386" expanded="true" signature="3371:3406" ph="SELECT * FRO... contacts" />
           </folding>
         </state>
       </provider>
@@ -1163,13 +1292,30 @@
         <state relative-caret-position="-187">
           <caret line="108" column="53" lean-forward="true" selection-start-line="103" selection-start-column="11" selection-end-line="103" selection-end-column="38" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#Contact#0;class#Contact#0" expanded="false" />
-            <marker date="1499890857058" expanded="true" signature="1515:1540" ph="SELECT name,... " />
-            <marker date="1499890857058" expanded="true" signature="1515:1580" ph="SELECT name,... contacts" />
-            <marker date="1499890857058" expanded="true" signature="1964:2013" ph="INSERT INTO contacts... " />
-            <marker date="1499890857058" expanded="true" signature="2472:2495" ph="SELECT LAST_... " />
-            <marker date="1499890857058" expanded="true" signature="3316:3351" ph="SELECT * FRO... contacts" />
+            <element signature="e#435#436#0" expanded="false" />
+            <element signature="e#463#464#0" expanded="false" />
+            <element signature="e#508#509#0" expanded="false" />
+            <element signature="e#542#543#0" expanded="false" />
+            <element signature="e#585#586#0" expanded="false" />
+            <element signature="e#617#618#0" expanded="false" />
+            <element signature="e#658#659#0" expanded="false" />
+            <element signature="e#688#689#0" expanded="false" />
+            <element signature="e#713#714#0" expanded="false" />
+            <element signature="e#738#739#0" expanded="false" />
+            <element signature="e#769#770#0" expanded="false" />
+            <element signature="e#796#797#0" expanded="false" />
+            <element signature="e#830#831#0" expanded="false" />
+            <element signature="e#860#861#0" expanded="false" />
+            <element signature="e#892#893#0" expanded="false" />
+            <element signature="e#920#921#0" expanded="false" />
+            <element signature="e#953#954#0" expanded="false" />
+            <element signature="e#982#983#0" expanded="false" />
+            <element signature="e#1202#1203#0" expanded="false" />
+            <element signature="e#1231#1232#0" expanded="false" />
+            <marker date="1499931829386" expanded="true" signature="1570:1635" ph="SELECT name,... contacts" />
+            <marker date="1499931829386" expanded="true" signature="2019:2068" ph="INSERT INTO contacts... " />
+            <marker date="1499931829386" expanded="true" signature="2527:2550" ph="SELECT LAST_... " />
+            <marker date="1499931829386" expanded="true" signature="3371:3406" ph="SELECT * FRO... contacts" />
           </folding>
         </state>
       </provider>
@@ -1193,13 +1339,30 @@
         <state relative-caret-position="1820">
           <caret line="108" column="53" lean-forward="false" selection-start-line="103" selection-start-column="11" selection-end-line="103" selection-end-column="38" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#Contact#0;class#Contact#0" expanded="false" />
-            <marker date="1499890857058" expanded="true" signature="1515:1540" ph="SELECT name,... " />
-            <marker date="1499890857058" expanded="true" signature="1515:1580" ph="SELECT name,... contacts" />
-            <marker date="1499890857058" expanded="true" signature="1964:2013" ph="INSERT INTO contacts... " />
-            <marker date="1499890857058" expanded="true" signature="2472:2495" ph="SELECT LAST_... " />
-            <marker date="1499890857058" expanded="true" signature="3316:3351" ph="SELECT * FRO... contacts" />
+            <element signature="e#435#436#0" expanded="false" />
+            <element signature="e#463#464#0" expanded="false" />
+            <element signature="e#508#509#0" expanded="false" />
+            <element signature="e#542#543#0" expanded="false" />
+            <element signature="e#585#586#0" expanded="false" />
+            <element signature="e#617#618#0" expanded="false" />
+            <element signature="e#658#659#0" expanded="false" />
+            <element signature="e#688#689#0" expanded="false" />
+            <element signature="e#713#714#0" expanded="false" />
+            <element signature="e#738#739#0" expanded="false" />
+            <element signature="e#769#770#0" expanded="false" />
+            <element signature="e#796#797#0" expanded="false" />
+            <element signature="e#830#831#0" expanded="false" />
+            <element signature="e#860#861#0" expanded="false" />
+            <element signature="e#892#893#0" expanded="false" />
+            <element signature="e#920#921#0" expanded="false" />
+            <element signature="e#953#954#0" expanded="false" />
+            <element signature="e#982#983#0" expanded="false" />
+            <element signature="e#1202#1203#0" expanded="false" />
+            <element signature="e#1231#1232#0" expanded="false" />
+            <marker date="1499931829386" expanded="true" signature="1570:1635" ph="SELECT name,... contacts" />
+            <marker date="1499931829386" expanded="true" signature="2019:2068" ph="INSERT INTO contacts... " />
+            <marker date="1499931829386" expanded="true" signature="2527:2550" ph="SELECT LAST_... " />
+            <marker date="1499931829386" expanded="true" signature="3371:3406" ph="SELECT * FRO... contacts" />
           </folding>
         </state>
       </provider>
@@ -1230,13 +1393,30 @@
         <state relative-caret-position="1800">
           <caret line="103" column="38" lean-forward="true" selection-start-line="103" selection-start-column="11" selection-end-line="103" selection-end-column="38" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#Contact#0;class#Contact#0" expanded="false" />
-            <marker date="1499890857058" expanded="true" signature="1515:1540" ph="SELECT name,... " />
-            <marker date="1499890857058" expanded="true" signature="1515:1580" ph="SELECT name,... contacts" />
-            <marker date="1499890857058" expanded="true" signature="1964:2013" ph="INSERT INTO contacts... " />
-            <marker date="1499890857058" expanded="true" signature="2472:2495" ph="SELECT LAST_... " />
-            <marker date="1499890857058" expanded="true" signature="3316:3351" ph="SELECT * FRO... contacts" />
+            <element signature="e#435#436#0" expanded="false" />
+            <element signature="e#463#464#0" expanded="false" />
+            <element signature="e#508#509#0" expanded="false" />
+            <element signature="e#542#543#0" expanded="false" />
+            <element signature="e#585#586#0" expanded="false" />
+            <element signature="e#617#618#0" expanded="false" />
+            <element signature="e#658#659#0" expanded="false" />
+            <element signature="e#688#689#0" expanded="false" />
+            <element signature="e#713#714#0" expanded="false" />
+            <element signature="e#738#739#0" expanded="false" />
+            <element signature="e#769#770#0" expanded="false" />
+            <element signature="e#796#797#0" expanded="false" />
+            <element signature="e#830#831#0" expanded="false" />
+            <element signature="e#860#861#0" expanded="false" />
+            <element signature="e#892#893#0" expanded="false" />
+            <element signature="e#920#921#0" expanded="false" />
+            <element signature="e#953#954#0" expanded="false" />
+            <element signature="e#982#983#0" expanded="false" />
+            <element signature="e#1202#1203#0" expanded="false" />
+            <element signature="e#1231#1232#0" expanded="false" />
+            <marker date="1499931829386" expanded="true" signature="1570:1635" ph="SELECT name,... contacts" />
+            <marker date="1499931829386" expanded="true" signature="2019:2068" ph="INSERT INTO contacts... " />
+            <marker date="1499931829386" expanded="true" signature="2527:2550" ph="SELECT LAST_... " />
+            <marker date="1499931829386" expanded="true" signature="3371:3406" ph="SELECT * FRO... contacts" />
           </folding>
         </state>
       </provider>
@@ -1267,13 +1447,30 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#Contact#0;class#Contact#0" expanded="false" />
-            <marker date="1499890857058" expanded="true" signature="1515:1540" ph="SELECT name,... " />
-            <marker date="1499890857058" expanded="true" signature="1515:1580" ph="SELECT name,... contacts" />
-            <marker date="1499890857058" expanded="true" signature="1964:2013" ph="INSERT INTO contacts... " />
-            <marker date="1499890857058" expanded="true" signature="2472:2495" ph="SELECT LAST_... " />
-            <marker date="1499890857058" expanded="true" signature="3316:3351" ph="SELECT * FRO... contacts" />
+            <element signature="e#435#436#0" expanded="false" />
+            <element signature="e#463#464#0" expanded="false" />
+            <element signature="e#508#509#0" expanded="false" />
+            <element signature="e#542#543#0" expanded="false" />
+            <element signature="e#585#586#0" expanded="false" />
+            <element signature="e#617#618#0" expanded="false" />
+            <element signature="e#658#659#0" expanded="false" />
+            <element signature="e#688#689#0" expanded="false" />
+            <element signature="e#713#714#0" expanded="false" />
+            <element signature="e#738#739#0" expanded="false" />
+            <element signature="e#769#770#0" expanded="false" />
+            <element signature="e#796#797#0" expanded="false" />
+            <element signature="e#830#831#0" expanded="false" />
+            <element signature="e#860#861#0" expanded="false" />
+            <element signature="e#892#893#0" expanded="false" />
+            <element signature="e#920#921#0" expanded="false" />
+            <element signature="e#953#954#0" expanded="false" />
+            <element signature="e#982#983#0" expanded="false" />
+            <element signature="e#1202#1203#0" expanded="false" />
+            <element signature="e#1231#1232#0" expanded="false" />
+            <marker date="1499931829386" expanded="true" signature="1570:1635" ph="SELECT name,... contacts" />
+            <marker date="1499931829386" expanded="true" signature="2019:2068" ph="INSERT INTO contacts... " />
+            <marker date="1499931829386" expanded="true" signature="2527:2550" ph="SELECT LAST_... " />
+            <marker date="1499931829386" expanded="true" signature="3371:3406" ph="SELECT * FRO... contacts" />
           </folding>
         </state>
       </provider>
@@ -1292,7 +1489,7 @@
     <entry file="file://$PROJECT_DIR$/npm-debug.log" />
     <entry file="file://$PROJECT_DIR$/src/main/java/md/ungureanu/ira/data/ContactList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
+        <state relative-caret-position="170">
           <caret line="11" column="63" lean-forward="false" selection-start-line="11" selection-start-column="63" selection-end-line="11" selection-end-column="63" />
           <folding>
             <element signature="imports" expanded="false" />
@@ -1303,51 +1500,72 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
+        <state relative-caret-position="119">
           <caret line="7" column="28" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="7" selection-end-column="28" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/md/ungureanu/ira/data/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/md/ungureanu/ira/data/DBConnection.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="14" column="35" lean-forward="false" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/md/ungureanu/ira/data/ContactTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="28" column="8" lean-forward="false" selection-start-line="28" selection-start-column="8" selection-end-line="29" selection-end-column="26" />
+        <state relative-caret-position="170">
+          <caret line="11" column="18" lean-forward="false" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
           <folding>
-            <marker date="1499672394312" expanded="true" signature="581:601" ph="DELETE FROM " />
-            <marker date="1499672394312" expanded="true" signature="633:672" ph="ALTER TABLE contacts... " />
+            <element signature="imports" expanded="false" />
+            <element signature="e#414#415#0" expanded="false" />
+            <element signature="e#444#445#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/md/ungureanu/ira/data/DBConnection.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/md/ungureanu/ira/data/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="11" column="18" lean-forward="false" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+        <state relative-caret-position="238">
+          <caret line="14" column="35" lean-forward="false" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/md/ungureanu/ira/data/Contact.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="56" column="22" lean-forward="false" selection-start-line="56" selection-start-column="22" selection-end-line="56" selection-end-column="22" />
+        <state relative-caret-position="884">
+          <caret line="73" column="57" lean-forward="false" selection-start-line="73" selection-start-column="57" selection-end-line="73" selection-end-column="57" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#Contact#0;class#Contact#0" expanded="false" />
-            <marker date="1499890857058" expanded="true" signature="1515:1540" ph="SELECT name,... " />
-            <marker date="1499890857058" expanded="true" signature="1515:1580" ph="SELECT name,... contacts" />
-            <marker date="1499890857058" expanded="true" signature="1964:2013" ph="INSERT INTO contacts... " />
-            <marker date="1499890857058" expanded="true" signature="2472:2495" ph="SELECT LAST_... " />
-            <marker date="1499890857058" expanded="true" signature="3316:3351" ph="SELECT * FRO... contacts" />
+            <element signature="e#435#436#0" expanded="false" />
+            <element signature="e#463#464#0" expanded="false" />
+            <element signature="e#508#509#0" expanded="false" />
+            <element signature="e#542#543#0" expanded="false" />
+            <element signature="e#585#586#0" expanded="false" />
+            <element signature="e#617#618#0" expanded="false" />
+            <element signature="e#658#659#0" expanded="false" />
+            <element signature="e#688#689#0" expanded="false" />
+            <element signature="e#713#714#0" expanded="false" />
+            <element signature="e#738#739#0" expanded="false" />
+            <element signature="e#769#770#0" expanded="false" />
+            <element signature="e#796#797#0" expanded="false" />
+            <element signature="e#830#831#0" expanded="false" />
+            <element signature="e#860#861#0" expanded="false" />
+            <element signature="e#892#893#0" expanded="false" />
+            <element signature="e#920#921#0" expanded="false" />
+            <element signature="e#953#954#0" expanded="false" />
+            <element signature="e#982#983#0" expanded="false" />
+            <element signature="e#1202#1203#0" expanded="false" />
+            <element signature="e#1231#1232#0" expanded="false" />
+            <marker date="1499931829386" expanded="true" signature="1570:1635" ph="SELECT name,... contacts" />
+            <marker date="1499931829386" expanded="true" signature="2019:2068" ph="INSERT INTO contacts... " />
+            <marker date="1499931829386" expanded="true" signature="2527:2550" ph="SELECT LAST_... " />
+            <marker date="1499931829386" expanded="true" signature="3371:3406" ph="SELECT * FRO... contacts" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/md/ungureanu/ira/data/ContactTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="17" column="26" lean-forward="false" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="26" />
+          <folding>
+            <marker date="1499931829314" expanded="true" signature="586:606" ph="DELETE FROM " />
+            <marker date="1499931829314" expanded="true" signature="638:677" ph="ALTER TABLE contacts... " />
           </folding>
         </state>
       </provider>

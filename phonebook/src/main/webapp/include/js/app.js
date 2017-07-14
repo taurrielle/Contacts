@@ -3,8 +3,10 @@
 var app = angular.module("ContactsApp", []);
 
     app.controller("HttpCtrl", function($scope, $http) {
-        $scope.navTitle = 'All Stars';
+        $scope.panelTitle = "Your Contacts";
         $scope.operation="";
+        $scope.toggle = false;
+        $scope.toggleNew = false;
         $scope.isSaveDisabled = true;
         $scope.isDeleteDisabled = true;
 
@@ -28,6 +30,8 @@ var app = angular.module("ContactsApp", []);
                 console.log("getContact data: " + angular.toJson(data, false));
                 $scope.contact = data;
                 $scope.operation="update";
+                $scope.toggle = true;
+                $scope.toggleNew = false;
                 $scope.isSaveDisabled = false;
                 $scope.isDeleteDisabled = false;
             });
@@ -36,6 +40,21 @@ var app = angular.module("ContactsApp", []);
                 alert("AJAX failed to get data, status=" + status);
             })
         };
+
+
+        $scope.editContact = function(id) {
+
+
+
+
+
+
+
+
+            
+        };
+
+
 /*
         $scope.searchActor = function(name) {
             $scope.navTitle = 'Search Criteria';
@@ -72,6 +91,8 @@ var app = angular.module("ContactsApp", []);
             $scope.operation="create";
             $scope.clearForm();
             // main.name.focus();
+            $scope.toggleNew = true;
+            $scope.toggle = false;
             $scope.isSaveDisabled = false;
             $scope.isDeleteDisabled = true;
         };

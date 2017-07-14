@@ -8,11 +8,11 @@ import java.sql.*;
 //
 //@JsonInclude(Include.NON_EMPTY)
 public class Contact {
-    public int id;
-    public String name;
-    public String surname;
-    public String number;
-    public String email;
+    private int id;
+    private String name;
+    private String surname;
+    private String number;
+    private String email;
 
     public void setName(String cName){
         name = cName;
@@ -25,6 +25,10 @@ public class Contact {
     }
     public void setEmail(String cEmail){
         email = cEmail;
+    }
+
+    public int getId(){
+        return id;
     }
 
     public String getName() {
