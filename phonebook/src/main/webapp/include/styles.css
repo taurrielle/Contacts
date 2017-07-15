@@ -14,117 +14,54 @@ button.btn-sm {
 h2 {
     display:inline-block
 }
-
-.input-field.ng-valid {
-    background-color: lightgreen;
-}
-.input-field.ng-dirty.ng-invalid-required {
-    background-color: red;
+h3 {
+    margin-top: 10px !important;
 }
 
-.input-field.ng-invalid-email {
-    background-color: yellow;
+.glyphicon {
+    line-height: 145% !important;
 }
-.input-field.ng-dirty.ng-invalid-pattern {
-    background-color: yellow;
+
+.fa-lg {
+    font-size: 1.5em !important;
+}
+
+span.fa {
+    width: 20px;
+    text-align: center;
+}
+
+.fixed-panel {
+    height: 70%;
+    overflow-y: hidden;
+
+}
+.fixed-panel:hover {
+    overflow-y: scroll;
+    overflow-y: overlay;
+
+
+}
+
+.fixed-panel::-webkit-scrollbar
+{
+    width: 7px;
+    background-color: transparent;
+    opacity: 0.5;
+}
+
+.fixed-panel::-webkit-scrollbar-thumb
+{
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+    background-color: #999999;
+    opacity: 0.1;
 }
 
 
-h1.custom {
-    font-faily: impact, sans-serif;
-    font-size: 30px;
-    color: #5aa8f5;
-    font-style: bold;
-    text-align: left;
-    text-shadow: 2px 3px 5px #444;
-}
 
-td.side:hover {
-    background: #cbd3fe;
-}
+
 
 .btn {
     margin-left: 10px;
 }
-
-.LeftPanel {
-    line-height:30px;
-    background-color:#eeeeee;
-    height:460px;
-    width:210px;
-    float:left;
-    padding:5px;
-    overflow-y: scroll;
-}
-
-.LeftPanelHeader {
-    background-color: #c0c0c0;
-    color:white;
-    width:183px;
-    clear:both;
-    text-align:center;
-    padding-top:3px;
-    padding-bottom:3px;
-}
-
-.RightPanel {
-    line-height:30px;
-    background-color:#eeeeee;
-    height:460px;
-    width:240px;
-    float:right;
-    padding:5px;
-}
-
-.MainBody {
-    width:600px;
-    float:left;
-    padding:10px;
-}
-
-/* Label Style */
-.display {
-    font-family: verdana, sans-serif;
-    font-size: 13px;
-    color: #777;
-}
-
-.display_bold {
-    font-family: verdana, sans-serif;
-    font-size: 12px;
-    font-weight: bold;
-    color: #555;
-}
-
-/* Label Style */
-/*label {
-    font-family: verdana, sans-serif;
-    font-size: 13px;
-    color: #777;
-}
-
-!* Double Border *!
-input {
-    border: 3px double #CCCCCC;
-}*/
-
-/* Submit Button with Hover Effect*/
-/*
-.button {
-    background-color: #3366FF;
-    padding-left:20px;
-    padding-right:20px;
-    padding-top:6px;
-    padding-bottom:6px;
-    border-radius: 6px;
-    color: #ffffff;
-    width: 200px;
-    border:1px solid #3366FF;;
-    background-image: url(/form/images/blue_button.png);
-}
-
-.button:hover {
-    background-color: #000000;
-    border:1px solid #000000;
-    background-image: url(/form/images/blue_button_hover.png);
-}*/

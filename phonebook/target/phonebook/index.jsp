@@ -12,23 +12,30 @@
 </head>
 
 
-<body ng-controller="HttpCtrl as app">
+<body ng-controller="ContactsController">
 <div class="container">
     <div class="col-sm-6 col-md-4">
         <div class="panel panel-default">
             <div class="panel-heading">
-                <div class="panel-title">{{panelTitle}}
+                <div class="panel-title">Your Contacts
 
-                    <button ng-click="addNew()" class="btn btn-primary btn-sm pull-right">
+                    <button ng-click="addContact()" class="btn btn-primary btn-sm pull-right">
                     <span class="glyphicon glyphicon-plus"></span> Add New </button>
                     <div class="clearfix"></div>
                 </div>
+
+                <div class="input-group">
+                    <input type="text" ng-model="search" class="form-control" placeholder="Search...">
+                    <span class="input-group-btn">
+                        <button class="btn btn-default" type="button"><i class="glyphicon glyphicon-search"></i></button>
+                    </span>
+                </div>
             </div>
 
-            <div class="panel-body">
+            <div class="panel-body fixed-panel">
                 <ul class="list-group">
                     <li class="list-group-item"
-                        ng-repeat="contact in contacts"
+                        ng-repeat="contact in contacts | filter:search"
                         ng-click="getContact(contact.id)">{{contact.name}} {{contact.surname}}</li>
                 </ul>
             </div>
@@ -43,10 +50,10 @@
 
                     <table class="table">
                         <tr>
-                            <td><i class="fa fa-mobile fa-lg"></i> {{contact.number}}</td>
+                            <td><span class="fa fa-mobile fa-lg" ></span> {{contact.number}}</td>
                         </tr>
                         <tr>
-                            <td><i class="fa fa-envelope-open-o"></i> {{contact.email}}</td>
+                            <td><span class="fa fa-envelope-open-o"></span> {{contact.email}}</td>
                         </tr>
                     </table>
                 </div>
@@ -56,176 +63,90 @@
 
     <div class="col-sm-6 col-md-6" ng-show="toggleNew">
         <div class="panel panel-default">
+            <div class="panel-heading"><h3>Add Contact</h3></div>
             <div class="panel-body">
 
-                <form ng-submit="app.saveActor(contact.id)" name="myForm">
+                <form ng-submit="saveContact()" name="contactForm" novalidate>
 
-                    <div class="row">
-                        <div class="form-group col-md-12">
-                            <label class="control-label col-sm-2" for="name">Name:</label>
-                            <div class="col-md-6">
-                                <input type="text" ng-model="contact.name" id="name"
-                                       class="input-field form-control input-sm"
-                                       placeholder="Contact name" required/>
-                            </div>
-                        </div>
+                    <div class="form-group" ng-class="{'has-error' : contactForm.name.$invalid && contactForm.name.$dirty,
+                                                        'has-success': contactForm.name.$valid}">
+                        <label>Name:</label>
+                        <input type="text" ng-model="contact.name" name="name"
+                               class="input-field form-control"
+                               placeholder="Name" required/>
+                        <p ng-show="contactForm.name.$invalid && contactForm.name.$dirty" class="help-block">This field is required.</p>
                     </div>
 
-                    <div class="row">
-                        <div class="form-group col-md-12">
-                            <label class="col-md-2 control-label" for="surname">Surname:</label>
-                            <div class="col-md-6">
-                                <input type="text" ng-model="contact.surname" id="surname"
-                                       class="input-field form-control input-sm"
-                                       placeholder="Contact surname" required/>
-                            </div>
-                        </div>
+                    <div class="form-group" ng-class="{'has-error' : contactForm.surname.$invalid && contactForm.surname.$dirty,
+                                                        'has-success': contactForm.surname.$valid}">
+                        <label>Surname:</label>
+                        <input type="text" ng-model="contact.surname" name="surname"
+                               class="input-field form-control"
+                               placeholder="Surname" required/>
+                        <p ng-show="contactForm.surname.$invalid && contactForm.surname.$dirty" class="help-block">This field is required.</p>
                     </div>
 
-                    <div class="row">
-                        <div class="form-group col-md-12">
-                            <label class="col-md-2 control-label" for="number">Number:</label>
-                            <div class="col-md-6">
-                                <input type="tel" ng-model="contact.number" id="number"
-                                       class="input-field form-control input-sm"
-                                       placeholder="Contact number"
-                                       ng-pattern="/^\+?\d+$/(" required/>
-                                <span ng-show="myForm.number.$error.pattern">Not a valid number!</span>
-                            </div>
-                        </div>
+                    <div class="form-group" ng-class="{'has-error' : contactForm.number.$invalid && contactForm.number.$dirty,
+                                                        'has-success': contactForm.number.$valid}">
+                        <label>Number:</label>
+                        <input type="tel" ng-model="contact.number" name="number"
+                               class="input-field form-control"
+                               placeholder="Phone number"
+                               ng-pattern="/^\+?\d+$/" required/>
+                        <p ng-show="contactForm.number.$error.pattern" class="help-block ">Invalid number</p>
+                        <p ng-show="contactForm.number.$error.required && contactForm.number.$dirty" class="help-block">This field is required.</p>
                     </div>
 
-                    <div class="row">
-                        <div class="form-group col-md-12">
-                            <label class="col-md-2 control-lable" for="email">Email</label>
-                            <div class="col-md-6">
-                                <input type="email" ng-model="contact.email" id="email"
-                                       class="input-field form-control input-sm"
-                                       placeholder="Contact email" required/>
-                            </div>
-                        </div>
+                    <div class="form-group" ng-class="{'has-error' : contactForm.email.$invalid && contactForm.email.$dirty,
+                                                        'has-success': contactForm.email.$valid}">
+                        <label>Email:</label>
+                            <input type="email" ng-model="contact.email" name="email"
+                                   class="input-field form-control"
+                                   placeholder="Email" required/>
+                        <p ng-show="contactForm.email.$error.email" class="help-block ">Invalid email</p>
+                        <p ng-show="contactForm.email.$error.required && contactForm.email.$dirty" class="help-block">This field is required.</p>
                     </div>
+
+                    <div class="form-actions pull-right">
+                        <button type="submit" type="reset" class="btn btn-success" ng-disabled="contactForm.$invalid">
+                            <span class="glyphicon glyphicon-plus"></span> Save</button>
+
+                        <button type="reset" class="btn btn-danger" ng-click="closeForm()">
+                            <span class="glyphicon glyphicon-remove"></span> Cancel</button>
+                        <%--value="{{!ctrl.user.id ? 'Add' : 'Update'}}"--%>
+                        <%--<button type="button" ng-click="ctrl.reset()" class="btn btn-warning btn-sm" ng-disabled="myForm.$pristine">Reset Form</button>--%>
+                    </div>
+
 
                 </form>
-                <%--
-                                    <div class="row">
-                                        <div class="form-actions floatRight">
-                                            <input type="submit"  value="{{!ctrl.user.id ? 'Add' : 'Update'}}" class="btn btn-primary btn-sm" ng-disabled="myForm.$invalid">
-                                            <button type="button" ng-click="ctrl.reset()" class="btn btn-warning btn-sm" ng-disabled="myForm.$pristine">Reset Form</button>
-                                        </div>
-                                    </div>
-                                </form>--%>
-
-
-
-
-
             </div>
+
         </div>
     </div>
+</div>
 
     <%--<div class="RightPanel">--%>
         <%--<image src="{{actor.image}}" width="220">--%>
     <%--</div>--%>
 
-    <div class="MainBody">
-        <form>
-            <table>
-                <tr>
-                    <td><input type="text" ng-model="searchName" size="30"></td>
+                    <%--<td><input type="text" ng-model="searchName" size="30"></td>
                     <td>
                         <button type="button" ng-click="searchActor(searchName)"
                                 class="btn btn-primary btn-sm">
                             <span class="glyphicon glyphicon-search"></span>Search</button>
-                    </td>
+                    </td>--%>
 
-                    <td><button ng-click="addNew()" class="btn btn-primary btn-sm right">
-                        <span class="glyphicon glyphicon-plus"></span> Add New </button></td>
+<%--<td><button ng-click="saveActor(contact.id)"
+                class="btn btn-success btn-sm"
+                title="Save actor's details..." ng-disabled="isSaveDisabled">
+        <span class="glyphicon glyphicon-plus"></span>
+        Save </button>
+    </td>
+    <td>
+        <button ng-click="deleteActor(contact.id)"
+                class="btn btn-danger btn-sm" ng-disabled="isDeleteDisabled">
+            <span class="glyphicon glyphicon-trash"></span>
+            Delete </button></td>--%>
 
-
-                    <td><button ng-click="editContact()" class="btn btn-primary btn-sm right">
-                        <span class="glyphicon glyphicon-pencil"></span> Edit </button></td>
-
-
-                    <td><button ng-click="resetSearch()"  class="btn btn-info btn-sm">
-                        <span class="glyphicon glyphicon-refresh"></span> Reset Search
-                    </button></td>
-                </tr>
-            </table>
-        </form>
-
-        <form id="main">
-            <table>
-                <%--<tr>--%>
-                    <%--<td class="display_bold"><label for="name">ID:</label></td>--%>
-                <%--</tr>--%>
-                <%--<tr>--%>
-                    <%--<td class="display"><input id="id" type="text"--%>
-                                               <%--ng-model="contact.id" size="4"></td>--%>
-                <%--</tr>--%>
-                <tr>
-                    <td class="display_bold">
-                        <label for="name">Name:</label>
-                    </td>
-                </tr>
-                <tr>
-                    <td class="display"><input type="text"
-                                               ng-model="contact.name" size="30"></td>
-                </tr>
-                <tr>
-                    <td class="display_bold">
-                        <label for="name">Surname:</label>
-                    </td>
-                </tr>
-                <tr>
-                    <td class="display"><input type="text"
-                                               ng-model="contact.surname" size="40"></td>
-                </tr>
-                <tr>
-                    <td class="display_bold">
-                        <label for="name">Number:</label>
-                    </td>
-                </tr>
-                <tr>
-                    <td class="display"><input type="text"
-                                               ng-model="contact.number" size="20"></td>
-                </tr>
-                <tr>
-                    <td class="display_bold">
-                        <label for="name">Email:</label>
-                    </td>
-                </tr>
-                <tr>
-                    <td class="display"><input type="text"
-                                               ng-model="contact.email" size="30"></td>
-                </tr>
-
-                <tr>
-                    <td>&nbsp;</td>
-                </tr>
-                <tr>
-                    <td>
-                        <table>
-                            <tr>
-                                <td><button ng-click="saveActor(contact.id)"
-                                            class="btn btn-success btn-sm"
-                                            title="Save actor's details..." ng-disabled="isSaveDisabled">
-                                    <span class="glyphicon glyphicon-plus"></span>
-                                    Save </button>
-                                </td>
-                                <td>
-                                    <button ng-click="deleteActor(contact.id)"
-                                            class="btn btn-danger btn-sm" ng-disabled="isDeleteDisabled">
-                                        <span class="glyphicon glyphicon-trash"></span>
-                                        Delete </button></td>
-                            </tr>
-                        </table>
-                    </td>
-                </tr>
-
-            </table>
-        </form>
-    </div>
-</div>
-</body>
+    </body>
 </html>

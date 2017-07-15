@@ -54,7 +54,6 @@ public class Hello {
 
         DBConnection con = new DBConnection("testDB", "practica", "OKdan96_gmail_com");
         con.connectToDB();
-        System.out.println(con);
 
         contact.saveContact(con.connect());
         System.out.println("Adding actor with ID: " + contact.getName());
