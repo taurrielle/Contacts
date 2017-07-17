@@ -30,14 +30,13 @@
                     </button>
                     <a class="navbar-brand" href="/">Contacts</a>
                 </div>
-
-                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <%--<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav">
                         <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
-                        <li><a href="#">Link</a></li>
+                        <li><a href="/">Link</a></li>
                     </ul>
-                </div><!-- /.navbar-collapse -->
-            </div><!-- /.container-fluid -->
+                </div>--%>
+            </div>
         </nav>
 
 
@@ -67,30 +66,5 @@
         <div class="col-sm-6 col-md-6" ng-show="toggleNew">
             <contact-form></contact-form>
         </div>
-    <%--</div>--%>
-
-    <%--<div class="RightPanel">--%>
-        <%--<image src="{{actor.image}}" width="220">--%>
-    <%--</div>--%>
-
-                    <%--<td><input type="text" ng-model="searchName" size="30"></td>
-                    <td>
-                        <button type="button" ng-click="searchActor(searchName)"
-                                class="btn btn-primary btn-sm">
-                            <span class="glyphicon glyphicon-search"></span>Search</button>
-                    </td>--%>
-
-<%--<td><button ng-click="saveActor(contact.id)"
-                class="btn btn-success btn-sm"
-                title="Save actor's details..." ng-disabled="isSaveDisabled">
-        <span class="glyphicon glyphicon-plus"></span>
-        Save </button>
-    </td>
-    <td>
-        <button ng-click="deleteActor(contact.id)"
-                class="btn btn-danger btn-sm" ng-disabled="isDeleteDisabled">
-            <span class="glyphicon glyphicon-trash"></span>
-            Delete </button></td>--%>
-
     </body>
 </html>
