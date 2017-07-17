@@ -67,9 +67,9 @@
             })
         };
 
-        $scope.saveContact = function(id) {
+        $scope.saveContact = function() {
             $scope.contactExists = false;
-            $scope.contactSaved = true;
+            $scope.contactSaved = false;
 
             $scope.jsonObj = angular.toJson($scope.contact, false);
 
@@ -96,7 +96,7 @@
             var response = $http.get(
                 '/rest/contacts/' + id);
             response.then(function(result, status) {
-                console.log("Inside delete operation..."
+                console.log("Inside edit operation..."
                     + angular.toJson(result.data, false) + ", status=" + status);
             });
 
@@ -106,8 +106,7 @@
         };
 
         $scope.deleteContact = function(id) {
-            var response = $http.delete(
-                '/rest/contacts/' + id);
+            var response = $http.delete('/rest/contacts/' + id);
             response.then(function(result, status) {
                 console.log("Inside delete operation..."
                     + angular.toJson(result.data, false) + ", status=" + status);
