@@ -37,6 +37,7 @@
         $scope.toggleNew = false;
         $scope.contactExists = false;
         $scope.contactSaved = false;
+        $scope.editFlag = false;
 
         var response = $http.get('/rest/contacts/all');
         response.then(function (result) {
@@ -70,6 +71,7 @@
         $scope.saveContact = function() {
             $scope.contactExists = false;
             $scope.contactSaved = false;
+            $scope.addFlag = false;
 
             $scope.jsonObj = angular.toJson($scope.contact, false);
 
@@ -141,8 +143,15 @@
         $scope.addContact = function() {
             $scope.toggleNew = true;
             $scope.toggle = false;
+            $scope.addFlag = true;
             $scope.clearForm();
         };
+
+        $scope.edit =function() {
+            $scope.toggleNew = true;
+            $scope.toggle = false;
+            $scope.addFlag = false;
+        }
 
         $scope.closeAlert = function() {
             $scope.contactSaved = false;
