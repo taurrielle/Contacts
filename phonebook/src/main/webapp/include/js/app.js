@@ -91,10 +91,12 @@
         };
 
         $scope.editContact = function(id) {
+            $scope.toggle = false;
+            $scope.toggleNew = true;
+
             $scope.jsonObj = angular.toJson($scope.contact, false);
             console.log("[update] data: " + $scope.jsonObj);
-            var response = $http.get(
-                '/rest/contacts/' + id);
+            var response = $http.get('/rest/contacts/' + id);
             response.then(function(result, status) {
                 console.log("Inside edit operation..."
                     + angular.toJson(result.data, false) + ", status=" + status);
