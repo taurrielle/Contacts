@@ -1,85 +1,130 @@
-// (function() {
+(function() {
 
-var app = angular.module("ContactsApp", []);
+    var app = angular.module("ContactsApp", []);
 
-app.controller("ContactsController", function($scope, $http) {
-
-    $scope.toggle = false;
-    $scope.toggleNew = false;
-
-    var response = $http.get('/rest/contacts/all');
-    response.then(function (result) {
-        $scope.contacts = result.data;
-        console.log("[main] # of items: " + result.length());
-        angular.forEach(result, function (element) {
-            console.log("[main] contact: " + element.name);
-
-        });
-    });
-    response.catch(function (data, status, headers, config) {
-        alert("AJAX failed to get data, status=" + status);
-    });
-
-
-    $scope.getContact = function(id) {
-        var response=$http.get('/rest/contacts/' + id);
-        response.then(function(result) {
-            console.log("getContact data: " + angular.toJson(result.data, false));
-            $scope.contact = result.data;
-            $scope.toggle = true;
-            $scope.toggleNew = false;
-        });
-        response.catch(function(data, status, headers, config) {
-            alert("AJAX failed to get data, status=" + status);
-        })
-    };
-
-    $scope.editContact = function(id) {
-
-    };
-
-    $scope.clearForm = function() {
-        $scope.contact = {
-            name:'',
-            surname:'',
-            number:'',
-            email:''
+    app.directive('contactForm', function(){
+        return {
+            restrict: 'E',
+            templateUrl: 'contact-form.html'
         };
-        $scope.contactForm.$setPristine();
-    };
+    });
 
-    $scope.closeForm = function() {
-        $scope.clearForm();
-        $scope.toggleNew = false;
-    };
+    app.directive('contactsPanel', function() {
+        return {
+            restrict: 'E',
+            templateUrl: 'contacts-panel.html'
+        };
+    });
 
-    $scope.addContact = function() {
-        $scope.toggleNew = true;
+    app.directive('contactPanel', function() {
+        return {
+            restrict: 'E',
+            templateUrl: 'contact-panel.html'
+        };
+    });
+
+    app.directive('settingsButton', function() {
+        return {
+            restrict: 'E',
+            templateUrl: 'settings-button.html'
+        };
+    });
+
+
+    app.controller("ContactsController", function($scope, $http) {
+
         $scope.toggle = false;
-        $scope.clearForm();
-    };
-
-    $scope.saveContact = function() {
         $scope.toggleNew = false;
-        $scope.jsonObj = angular.toJson($scope.contact, false);
+        $scope.contactExists = false;
+        $scope.contactSaved = false;
 
-        console.log("[update] data: " + $scope.jsonObj);
+        var response = $http.get('/rest/contacts/all');
+        response.then(function (result) {
+            $scope.contacts = result.data;
+            console.log("[main] # of items: " + result.data.length);
+            angular.forEach(result.data, function (element) {
+                console.log("[main] contact: " + element.name);
 
-        var response=$http.post('/rest/contacts/get', $scope.jsonObj);
-
-        response.then(function onSuccess(data, status) {
-            console.log("Inside create operation..."
-                + angular.toJson(data, false) + ", status=" + status);
-            $scope.contacts.push($scope.contact);
-        })
-            .catch(function onError(data, status) {
-                alert("AJAX failed to get data, status=" + status);
             });
-    };
-});
-// })();
+        });
+        response.catch(function (data, status, headers, config) {
+            alert("AJAX failed to get data, status=" + status);
+        });
 
 
+        $scope.getContact = function(id) {
+            var response=$http.get('/rest/contacts/' + id);
+            response.then(function(result) {
+                console.log("getContact data: " + angular.toJson(result.data, false));
+                $scope.contact = result.data;
+                $scope.toggle = true;
+                $scope.toggleNew = false;
+                $scope.contactExists = false;
+                $scope.contactSaved = false;
+            });
+            response.catch(function(data, status, headers, config) {
+                alert("AJAX failed to get data, status=" + status);
+            })
+        };
+
+        $scope.editContact = function(id) {
+
+        };
+
+        $scope.deleteContact = function(id) {
+
+        };
+
+        $scope.clearForm = function() {
+            $scope.contact = {
+                name:'',
+                surname:'',
+                number:'',
+                email:''
+            };
+            $scope.contactForm.$setPristine();
+        };
+
+        $scope.closeForm = function() {
+            $scope.clearForm();
+            $scope.toggleNew = false;
+        };
+
+        $scope.addContact = function() {
+            $scope.toggleNew = true;
+            $scope.toggle = false;
+            $scope.clearForm();
+        };
+
+        $scope.closeAlert = function() {
+            $scope.contactSaved = false;
+            $scope.contactExists = false;
+        };
+
+        $scope.saveContact = function() {
+            $scope.contactExists = false;
+            $scope.contactSaved = false;
+
+            $scope.jsonObj = angular.toJson($scope.contact, false);
+
+            console.log("[update] data: " + $scope.jsonObj);
+
+            var response=$http.post('/rest/contacts/put', $scope.jsonObj);
+
+            response.then(function onSuccess(result, status) {
+                console.log("Inside create operation..."
+                    + angular.toJson(result.data, false) + ", status=" + status);
+                $scope.contacts.push($scope.contact);
+                $scope.toggleNew = false;
+                $scope.contactSaved = true;
+            })
+            response.catch(function onError(data, status) {
+                $scope.contactExists = true;
+
+            });
+        };
+    });
+})();
 
 
 /*         contactsCtrl.saveContact = function(id) {

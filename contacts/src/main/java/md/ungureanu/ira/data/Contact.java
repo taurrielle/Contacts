@@ -75,6 +75,7 @@ public class Contact {
 
             if(resultSet.next()) {
                 System.out.println("This contact already exists.");
+                return;
             }
             else {
                 preparedStatement = (PreparedStatement) connect.prepareStatement("INSERT INTO contacts VALUES (default, ?, ?, ?, ?)");

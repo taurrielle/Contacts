@@ -47,17 +47,22 @@ public class Hello {
 
 
     @POST
-    @Path("/get")
+    @Path("/put")
     @Consumes(MediaType.APPLICATION_JSON)
     @Produces(MediaType.APPLICATION_JSON)
-    public Contact createContactInJSON(Contact contact) throws Exception {
+    public Response createContactInJSON(Contact contact) throws Exception {
 
         DBConnection con = new DBConnection("testDB", "practica", "OKdan96_gmail_com");
         con.connectToDB();
 
         contact.saveContact(con.connect());
-        System.out.println("Adding actor with ID: " + contact.getName());
 
-        return contact;
+        if(contact.getId() == 0) {
+            return Response.status(Response.Status.NOT_FOUND).build();
+        }
+        else{
+            return Response.ok(contact, MediaType.APPLICATION_JSON).build();
+        }
+        //return contact;
     }
 }
