@@ -43,7 +43,75 @@ h3 {
 
 .glyphicon {
     line-height: 145% !important;
+    top: 0 !important;
+    cursor: pointer;
 }
+
+div.col-sm-6.col-md-4 {
+    padding-left: 0 !important;
+}
+
+#contacts-panel.panel-body {
+    padding: 0 !important;
+}
+
+.list-group-item:first-child, .list-group-item:last-child{
+    border-radius: 0 !important;
+}
+
+.list-group-item {
+    border-width: 0 0 1px 0 !important;
+    border: solid #ddd;
+    margin-bottom: 0px !important;
+}
+
+/*#search.input-group {
+    padding: 10px 5px 10px 5px;
+}
+
+#search-input.form-control {
+    background-color: #F6F7F9 !important;
+    border: 0;
+    border-radius: 5px;
+}*/
+
+
+
+
+
+.stylish-input-group .input-group-addon {
+    background: #F6F7F9 !important;
+    border-radius: 5px;
+    padding: 6px 12px 4px 12px;
+    border-color:#F6F7F9;
+
+}
+
+.stylish-input-group .form-control {
+    border-right: 0;
+    box-shadow:0 0 0;
+    border-color:#F6F7F9;
+    background: #F6F7F9 !important;
+    border-radius: 5px;
+
+    border: none !important;
+
+    -webkit-box-shadow: none !important;
+    -moz-box-shadow: none !important;
+    box-shadow: none !important;
+}
+
+.stylish-input-group button{
+    border:0;
+    background:transparent;
+}
+
+.stylish-input-group.input-group {
+    padding: 10px 20px;
+}
+
+
+
 
 .fa-lg {
     font-size: 1.5em !important;
@@ -54,8 +122,11 @@ span.fa {
     text-align: center;
 }
 
+.panel{
+    margin-bottom: 0 !important;
+}
 .fixed-panel {
-    height: 70%;
+    height: 80%;
     overflow-y: hidden;
 
 }
@@ -86,6 +157,6 @@ span.fa {
 .alert {
     text-align:center;
     width: 40%;
-
-
 }
+
+

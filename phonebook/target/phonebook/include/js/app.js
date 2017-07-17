@@ -33,24 +33,19 @@
 
     app.controller("ContactsController", function($scope, $http) {
 
-        $scope.toggle = false;
+        $scope.toggle = true;
         $scope.toggleNew = false;
         $scope.contactExists = false;
         $scope.contactSaved = false;
         $scope.editFlag = false;
 
-        var response = $http.get('/rest/contacts/all');
-        response.then(function (result) {
-            $scope.contacts = result.data;
-            console.log("[main] # of items: " + result.data.length);
-            angular.forEach(result.data, function (element) {
-                console.log("[main] contact: " + element.name);
+        $scope.activeTab = 0;
 
-            });
-        });
-        response.catch(function (data, status, headers, config) {
-            alert("AJAX failed to get data, status=" + status);
-        });
+
+
+        $scope.setActiveTab = function(value) {
+            $scope.activeTab = value;
+        };
 
 
         $scope.getContact = function(id) {
@@ -60,22 +55,38 @@
                 $scope.contact = result.data;
                 $scope.toggle = true;
                 $scope.toggleNew = false;
-                $scope.contactExists = false;
-                $scope.contactSaved = false;
+                $scope.closeAlert();
             });
             response.catch(function(data, status, headers, config) {
                 alert("AJAX failed to get data, status=" + status);
             })
         };
 
+
+
+        var response = $http.get('/rest/contacts/all');
+        response.then(function (result) {
+            $scope.contacts = result.data;
+            console.log("[main] # of items: " + result.data.length);
+            angular.forEach(result.data, function (element) {
+                console.log("[main] contact: " + element.name);
+
+                $scope.getContact(result.data[0].id);
+            });
+        });
+        response.catch(function (data, status, headers, config) {
+            alert("AJAX failed to get data, status=" + status);
+        });
+
+
+
         $scope.saveContact = function() {
             $scope.contactExists = false;
             $scope.contactSaved = false;
-            $scope.addFlag = false;
 
             $scope.jsonObj = angular.toJson($scope.contact, false);
 
-            console.log("[update] data: " + $scope.jsonObj);
+            console.log("[save] data: " + $scope.jsonObj);
 
             var response=$http.post('/rest/contacts/put', $scope.jsonObj);
 
@@ -98,6 +109,7 @@
 
             $scope.jsonObj = angular.toJson($scope.contact, false);
             console.log("[update] data: " + $scope.jsonObj);
+            console.log("addFlag" + $scope.addFlag);
             var response = $http.get('/rest/contacts/' + id);
             response.then(function(result, status) {
                 console.log("Inside edit operation..."

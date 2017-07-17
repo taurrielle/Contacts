@@ -4,7 +4,7 @@
     </div>
     <div class="panel-body">
 
-        <form ng-submit="$scope.addFlag ? saveContact() : editContact(contact.id)" name="contactForm" novalidate>
+        <form ng-submit="addFlag ? saveContact() : editContact(contact.id)" name="contactForm" novalidate>
 
             <div class="form-group" ng-class="{'has-error' : contactForm.name.$invalid && contactForm.name.$dirty,
                                                             'has-success': contactForm.name.$valid}">

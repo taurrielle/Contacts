@@ -1,29 +1,32 @@
 <div class="panel panel-default">
     <div class="panel-heading">
         <div class="panel-title">Your Contacts
-            <button ng-click="addContact()" class="btn btn-primary btn-sm pull-right">
-                <span class="glyphicon glyphicon-plus"></span> Add New </button>
+            <span ng-click="addContact()" class="glyphicon glyphicon-plus pull-right">
+                </span>
             <div class="clearfix"></div>
-        </div>
-
-        <div class="input-group">
-            <input type="text" ng-model="search" class="form-control" placeholder="Search...">
-            <span class="input-group-btn">
-                <button class="btn btn-default" type="button"><i class="glyphicon glyphicon-search"></i></button>
-            </span>
         </div>
     </div>
 
-    <div class="panel-body fixed-panel">
+    <div class="panel-body fixed-panel" id="contacts-panel">
+
+        <div class="input-group stylish-input-group" id="search">
+            <input type="text" ng-model="search" class="form-control"  placeholder="Search" >
+            <span class="input-group-addon">
+                <button type="submit">
+                    <span class="glyphicon glyphicon-search"></span>
+                </button>
+            </span>
+        </div>
+
         <ul class="list-group">
             <li class="list-group-item"
-                ng-repeat="contact in contacts | filter:search"
-                ng-click="getContact(contact.id)">{{contact.name}} {{contact.surname}}
-
-                <settings-button></settings-button>
+                ng-repeat="contact in contacts | filter: search"
+                ng-click="getContact(contact.id); setActiveTab($index)"
+                ng-class=" {active: $index == activeTab}">
+                {{contact.name}} {{contact.surname}}
             </li>
+                <!--<settings-button></settings-button>-->
 
-            </li>
         </ul>
     </div>
 </div>
