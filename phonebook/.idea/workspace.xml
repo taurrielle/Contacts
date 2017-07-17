@@ -17,10 +17,10 @@
       <file leaf-file-name="Hello.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/md.phonebook/Hello.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="782">
-              <caret line="56" column="0" lean-forward="false" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
+            <state relative-caret-position="935">
+              <caret line="65" column="0" lean-forward="false" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
               <folding>
-                <marker date="1500029945108" expanded="true" signature="1349:1801" ph="//..." />
+                <marker date="1500122921633" expanded="true" signature="1349:1947" ph="//..." />
               </folding>
             </state>
           </provider>
@@ -29,35 +29,46 @@
       <file leaf-file-name="styles.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/include/styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="30" column="14" lean-forward="false" selection-start-line="30" selection-start-column="14" selection-end-line="30" selection-end-column="14" />
+            <state relative-caret-position="1462">
+              <caret line="86" column="21" lean-forward="false" selection-start-line="86" selection-start-column="21" selection-end-line="86" selection-end-column="21" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/include/js/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1292">
+              <caret line="106" column="0" lean-forward="false" selection-start-line="106" selection-start-column="0" selection-end-line="106" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="14" column="39" lean-forward="false" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
+            <state relative-caret-position="425">
+              <caret line="25" column="60" lean-forward="false" selection-start-line="25" selection-start-column="60" selection-end-line="25" selection-end-column="60" />
               <folding>
-                <marker date="1500067340600" expanded="true" signature="2999:3163" ph="{&quot;has-success&quot;: contactForm.name.$valid...}" />
-                <marker date="1500067340600" expanded="true" signature="3634:3807" ph="{&quot;has-success&quot;: contactForm.surname.$valid...}" />
-                <marker date="1500067340600" expanded="true" signature="4296:4466" ph="{&quot;has-success&quot;: contactForm.number.$valid...}" />
-                <marker date="1500067340600" expanded="true" signature="5126:5293" ph="{&quot;has-success&quot;: contactForm.email.$valid...}" />
-                <marker date="1500067340600" expanded="true" signature="7447:7623" ph="..." />
+                <marker date="1500127755898" expanded="true" signature="2646:2822" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/include/js/app.js">
+      <file leaf-file-name="contact-form.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/contact-form.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="53" lean-forward="false" selection-start-line="14" selection-start-column="53" selection-end-line="14" selection-end-column="53" />
-              <folding />
+            <state relative-caret-position="119">
+              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+              <folding>
+                <marker date="1500105404122" expanded="true" signature="254:422" ph="{&quot;has-success&quot;: contactForm.name.$valid...}" />
+                <marker date="1500105404122" expanded="true" signature="837:1014" ph="{&quot;has-success&quot;: contactForm.surname.$valid...}" />
+                <marker date="1500105404122" expanded="true" signature="1447:1621" ph="{&quot;has-success&quot;: contactForm.number.$valid...}" />
+                <marker date="1500105404122" expanded="true" signature="2209:2380" ph="{&quot;has-success&quot;: contactForm.email.$valid...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -70,6 +81,7 @@
         <option value="Class" />
         <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -84,6 +96,7 @@
       <find>titl</find>
       <find>.container</find>
       <find>contactsCtrl</find>
+      <find>GET</find>
     </findStrings>
   </component>
   <component name="GradleLocalSettings">
@@ -102,10 +115,15 @@
         <option value="$PROJECT_DIR$/src/main/webapp/include/js/controllers/MainController.js" />
         <option value="$MAVEN_REPOSITORY$/md/ungureanu/ira/contacts/1.0-SNAPSHOT/contacts-1.0-SNAPSHOT.jar!/md/ungureanu/ira/data/Contact.class" />
         <option value="/AngularJS Fragment (index.jsp:609).js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/include/contactForm.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/contact-form.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/contacts-panel.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/settings-button.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/contact-panel.html" />
         <option value="$PROJECT_DIR$/src/main/java/md.phonebook/Hello.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/include/styles.css" />
-        <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/include/js/app.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
       </list>
     </option>
   </component>
@@ -137,9 +155,9 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="57" />
-    <option name="y" value="24" />
-    <option name="width" value="1007" />
-    <option name="height" value="744" />
+    <option name="y" value="-4" />
+    <option name="width" value="1309" />
+    <option name="height" value="772" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -156,7 +174,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -234,6 +251,36 @@
               <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="include" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="phonebook" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="phonebook" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -263,8 +310,9 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -274,11 +322,13 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="JavaScript.Libraries" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../contacts" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/webapp" />
       <recent name="$PROJECT_DIR$/src/main/webapp/include/js" />
     </key>
   </component>
@@ -843,12 +893,14 @@
       <workItem from="1500016579513" duration="30750000" />
       <workItem from="1500062641338" duration="1852000" />
       <workItem from="1500064623924" duration="2899000" />
-      <workItem from="1500103618944" duration="448000" />
+      <workItem from="1500103618944" duration="20478000" />
+      <workItem from="1500141171152" duration="855000" />
+      <workItem from="1500271109303" duration="85000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="113746000" />
+    <option name="totallyTimeSpent" value="134716000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -860,7 +912,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="57" y="24" width="1007" height="744" extended-state="4" />
+    <frame x="57" y="-4" width="1309" height="772" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -875,17 +927,17 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39940387" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287037" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33903578" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33830103" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287037" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31881803" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39642325" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12413108" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16883117" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -905,7 +957,9 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="antWorkspaceConfiguration">
@@ -913,56 +967,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/md.phonebook/Hello.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="43" column="2" lean-forward="false" selection-start-line="43" selection-start-column="2" selection-end-line="43" selection-end-column="2" />
-          <folding>
-            <marker date="1500029945108" expanded="true" signature="1349:1801" ph="//..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/include/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1462">
-          <caret line="86" column="1" lean-forward="false" selection-start-line="86" selection-start-column="1" selection-end-line="86" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/md.phonebook/Hello.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1500029945108" expanded="true" signature="1349:1801" ph="//..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/include/styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1480">
-          <caret line="74" column="1" lean-forward="false" selection-start-line="74" selection-start-column="1" selection-end-line="74" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1900">
-          <caret line="95" column="18" lean-forward="false" selection-start-line="95" selection-start-column="18" selection-end-line="95" selection-end-column="18" />
-          <folding>
-            <marker date="1500067340600" expanded="true" signature="2999:3163" ph="{&quot;has-success&quot;: contactForm.name.$valid...}" />
-            <marker date="1500067340600" expanded="true" signature="3634:3807" ph="{&quot;has-success&quot;: contactForm.surname.$valid...}" />
-            <marker date="1500067340600" expanded="true" signature="4296:4466" ph="{&quot;has-success&quot;: contactForm.number.$valid...}" />
-            <marker date="1500067340600" expanded="true" signature="5126:5293" ph="{&quot;has-success&quot;: contactForm.email.$valid...}" />
-            <marker date="1500067340600" expanded="true" signature="7447:7623" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/include/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2860">
@@ -976,7 +980,7 @@
         <state relative-caret-position="660">
           <caret line="43" column="11" lean-forward="false" selection-start-line="43" selection-start-column="11" selection-end-line="43" selection-end-column="11" />
           <folding>
-            <marker date="1500029945108" expanded="true" signature="1349:1801" ph="//..." />
+            <marker date="1500122921633" expanded="true" signature="1349:1947" ph="//..." />
           </folding>
         </state>
       </provider>
@@ -994,11 +998,7 @@
         <state relative-caret-position="300">
           <caret line="15" column="24" lean-forward="false" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
           <folding>
-            <marker date="1500067340600" expanded="true" signature="2999:3163" ph="{&quot;has-success&quot;: contactForm.name.$valid...}" />
-            <marker date="1500067340600" expanded="true" signature="3634:3807" ph="{&quot;has-success&quot;: contactForm.surname.$valid...}" />
-            <marker date="1500067340600" expanded="true" signature="4296:4466" ph="{&quot;has-success&quot;: contactForm.number.$valid...}" />
-            <marker date="1500067340600" expanded="true" signature="5126:5293" ph="{&quot;has-success&quot;: contactForm.email.$valid...}" />
-            <marker date="1500067340600" expanded="true" signature="7447:7623" ph="..." />
+            <marker date="1500127755898" expanded="true" signature="2646:2822" ph="..." />
           </folding>
         </state>
       </provider>
@@ -1016,7 +1016,7 @@
         <state relative-caret-position="660">
           <caret line="43" column="11" lean-forward="false" selection-start-line="43" selection-start-column="11" selection-end-line="43" selection-end-column="11" />
           <folding>
-            <marker date="1500029945108" expanded="true" signature="1349:1801" ph="//..." />
+            <marker date="1500122921633" expanded="true" signature="1349:1947" ph="//..." />
           </folding>
         </state>
       </provider>
@@ -1034,11 +1034,7 @@
         <state relative-caret-position="1940">
           <caret line="97" column="0" lean-forward="false" selection-start-line="97" selection-start-column="0" selection-end-line="97" selection-end-column="0" />
           <folding>
-            <marker date="1500067340600" expanded="true" signature="2999:3163" ph="{&quot;has-success&quot;: contactForm.name.$valid...}" />
-            <marker date="1500067340600" expanded="true" signature="3634:3807" ph="{&quot;has-success&quot;: contactForm.surname.$valid...}" />
-            <marker date="1500067340600" expanded="true" signature="4296:4466" ph="{&quot;has-success&quot;: contactForm.number.$valid...}" />
-            <marker date="1500067340600" expanded="true" signature="5126:5293" ph="{&quot;has-success&quot;: contactForm.email.$valid...}" />
-            <marker date="1500067340600" expanded="true" signature="7447:7623" ph="..." />
+            <marker date="1500127755898" expanded="true" signature="2646:2822" ph="..." />
           </folding>
         </state>
       </provider>
@@ -1048,7 +1044,7 @@
         <state relative-caret-position="660">
           <caret line="43" column="11" lean-forward="false" selection-start-line="43" selection-start-column="11" selection-end-line="43" selection-end-column="11" />
           <folding>
-            <marker date="1500029945108" expanded="true" signature="1349:1801" ph="//..." />
+            <marker date="1500122921633" expanded="true" signature="1349:1947" ph="//..." />
           </folding>
         </state>
       </provider>
@@ -1066,11 +1062,7 @@
         <state relative-caret-position="1940">
           <caret line="97" column="0" lean-forward="false" selection-start-line="97" selection-start-column="0" selection-end-line="97" selection-end-column="0" />
           <folding>
-            <marker date="1500067340600" expanded="true" signature="2999:3163" ph="{&quot;has-success&quot;: contactForm.name.$valid...}" />
-            <marker date="1500067340600" expanded="true" signature="3634:3807" ph="{&quot;has-success&quot;: contactForm.surname.$valid...}" />
-            <marker date="1500067340600" expanded="true" signature="4296:4466" ph="{&quot;has-success&quot;: contactForm.number.$valid...}" />
-            <marker date="1500067340600" expanded="true" signature="5126:5293" ph="{&quot;has-success&quot;: contactForm.email.$valid...}" />
-            <marker date="1500067340600" expanded="true" signature="7447:7623" ph="..." />
+            <marker date="1500127755898" expanded="true" signature="2646:2822" ph="..." />
           </folding>
         </state>
       </provider>
@@ -1080,7 +1072,7 @@
         <state relative-caret-position="660">
           <caret line="43" column="11" lean-forward="false" selection-start-line="43" selection-start-column="11" selection-end-line="43" selection-end-column="11" />
           <folding>
-            <marker date="1500029945108" expanded="true" signature="1349:1801" ph="//..." />
+            <marker date="1500122921633" expanded="true" signature="1349:1947" ph="//..." />
           </folding>
         </state>
       </provider>
@@ -1098,11 +1090,7 @@
         <state relative-caret-position="1940">
           <caret line="97" column="0" lean-forward="false" selection-start-line="97" selection-start-column="0" selection-end-line="97" selection-end-column="0" />
           <folding>
-            <marker date="1500067340600" expanded="true" signature="2999:3163" ph="{&quot;has-success&quot;: contactForm.name.$valid...}" />
-            <marker date="1500067340600" expanded="true" signature="3634:3807" ph="{&quot;has-success&quot;: contactForm.surname.$valid...}" />
-            <marker date="1500067340600" expanded="true" signature="4296:4466" ph="{&quot;has-success&quot;: contactForm.number.$valid...}" />
-            <marker date="1500067340600" expanded="true" signature="5126:5293" ph="{&quot;has-success&quot;: contactForm.email.$valid...}" />
-            <marker date="1500067340600" expanded="true" signature="7447:7623" ph="..." />
+            <marker date="1500127755898" expanded="true" signature="2646:2822" ph="..." />
           </folding>
         </state>
       </provider>
@@ -1112,7 +1100,7 @@
         <state relative-caret-position="120">
           <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding>
-            <marker date="1500029945108" expanded="true" signature="1349:1801" ph="//..." />
+            <marker date="1500122921633" expanded="true" signature="1349:1947" ph="//..." />
           </folding>
         </state>
       </provider>
@@ -1122,11 +1110,7 @@
         <state relative-caret-position="1260">
           <caret line="63" column="55" lean-forward="true" selection-start-line="63" selection-start-column="55" selection-end-line="63" selection-end-column="55" />
           <folding>
-            <marker date="1500067340600" expanded="true" signature="2999:3163" ph="{&quot;has-success&quot;: contactForm.name.$valid...}" />
-            <marker date="1500067340600" expanded="true" signature="3634:3807" ph="{&quot;has-success&quot;: contactForm.surname.$valid...}" />
-            <marker date="1500067340600" expanded="true" signature="4296:4466" ph="{&quot;has-success&quot;: contactForm.number.$valid...}" />
-            <marker date="1500067340600" expanded="true" signature="5126:5293" ph="{&quot;has-success&quot;: contactForm.email.$valid...}" />
-            <marker date="1500067340600" expanded="true" signature="7447:7623" ph="..." />
+            <marker date="1500127755898" expanded="true" signature="2646:2822" ph="..." />
           </folding>
         </state>
       </provider>
@@ -1152,7 +1136,7 @@
         <state relative-caret-position="620">
           <caret line="31" column="18" lean-forward="false" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
           <folding>
-            <marker date="1500029945108" expanded="true" signature="1349:1801" ph="//..." />
+            <marker date="1500122921633" expanded="true" signature="1349:1947" ph="//..." />
           </folding>
         </state>
       </provider>
@@ -1170,7 +1154,7 @@
         <state relative-caret-position="160">
           <caret line="18" column="4" lean-forward="false" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
           <folding>
-            <marker date="1500029945108" expanded="true" signature="1349:1801" ph="//..." />
+            <marker date="1500122921633" expanded="true" signature="1349:1947" ph="//..." />
           </folding>
         </state>
       </provider>
@@ -1188,7 +1172,7 @@
         <state relative-caret-position="160">
           <caret line="18" column="4" lean-forward="false" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
           <folding>
-            <marker date="1500029945108" expanded="true" signature="1349:1801" ph="//..." />
+            <marker date="1500122921633" expanded="true" signature="1349:1947" ph="//..." />
           </folding>
         </state>
       </provider>
@@ -1206,7 +1190,7 @@
         <state relative-caret-position="360">
           <caret line="18" column="4" lean-forward="false" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
           <folding>
-            <marker date="1500029945108" expanded="true" signature="1349:1801" ph="//..." />
+            <marker date="1500122921633" expanded="true" signature="1349:1947" ph="//..." />
           </folding>
         </state>
       </provider>
@@ -1224,7 +1208,7 @@
         <state relative-caret-position="260">
           <caret line="13" column="26" lean-forward="false" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
           <folding>
-            <marker date="1500029945108" expanded="true" signature="1349:1801" ph="//..." />
+            <marker date="1500122921633" expanded="true" signature="1349:1947" ph="//..." />
           </folding>
         </state>
       </provider>
@@ -1242,7 +1226,7 @@
         <state relative-caret-position="260">
           <caret line="13" column="26" lean-forward="true" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
           <folding>
-            <marker date="1500029945108" expanded="true" signature="1349:1801" ph="//..." />
+            <marker date="1500122921633" expanded="true" signature="1349:1947" ph="//..." />
           </folding>
         </state>
       </provider>
@@ -1260,7 +1244,7 @@
         <state relative-caret-position="400">
           <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
           <folding>
-            <marker date="1500029945108" expanded="true" signature="1349:1801" ph="//..." />
+            <marker date="1500122921633" expanded="true" signature="1349:1947" ph="//..." />
           </folding>
         </state>
       </provider>
@@ -1313,43 +1297,80 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/include/styles.css">
+    <entry file="file://$USER_HOME$/Downloads/angular/angular.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" column="14" lean-forward="false" selection-start-line="30" selection-start-column="14" selection-end-line="30" selection-end-column="14" />
-          <folding />
+        <state relative-caret-position="137">
+          <caret line="321" column="43" lean-forward="false" selection-start-line="321" selection-start-column="43" selection-end-line="321" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/contacts-panel.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="22" column="51" lean-forward="false" selection-start-line="22" selection-start-column="51" selection-end-line="22" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/contact-panel.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="10" lean-forward="true" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/settings-button.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="45" lean-forward="false" selection-start-line="4" selection-start-column="45" selection-end-line="4" selection-end-column="45" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/md.phonebook/Hello.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="56" column="0" lean-forward="false" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
+        <state relative-caret-position="935">
+          <caret line="65" column="0" lean-forward="false" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
           <folding>
-            <marker date="1500029945108" expanded="true" signature="1349:1801" ph="//..." />
+            <marker date="1500122921633" expanded="true" signature="1349:1947" ph="//..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/include/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1462">
+          <caret line="86" column="21" lean-forward="false" selection-start-line="86" selection-start-column="21" selection-end-line="86" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/contact-form.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding>
+            <marker date="1500105404122" expanded="true" signature="254:422" ph="{&quot;has-success&quot;: contactForm.name.$valid...}" />
+            <marker date="1500105404122" expanded="true" signature="837:1014" ph="{&quot;has-success&quot;: contactForm.surname.$valid...}" />
+            <marker date="1500105404122" expanded="true" signature="1447:1621" ph="{&quot;has-success&quot;: contactForm.number.$valid...}" />
+            <marker date="1500105404122" expanded="true" signature="2209:2380" ph="{&quot;has-success&quot;: contactForm.email.$valid...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="60" lean-forward="false" selection-start-line="25" selection-start-column="60" selection-end-line="25" selection-end-column="60" />
+          <folding>
+            <marker date="1500127755898" expanded="true" signature="2646:2822" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/include/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="53" lean-forward="false" selection-start-line="14" selection-start-column="53" selection-end-line="14" selection-end-column="53" />
+        <state relative-caret-position="1292">
+          <caret line="106" column="0" lean-forward="false" selection-start-line="106" selection-start-column="0" selection-end-line="106" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="14" column="39" lean-forward="false" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
-          <folding>
-            <marker date="1500067340600" expanded="true" signature="2999:3163" ph="{&quot;has-success&quot;: contactForm.name.$valid...}" />
-            <marker date="1500067340600" expanded="true" signature="3634:3807" ph="{&quot;has-success&quot;: contactForm.surname.$valid...}" />
-            <marker date="1500067340600" expanded="true" signature="4296:4466" ph="{&quot;has-success&quot;: contactForm.number.$valid...}" />
-            <marker date="1500067340600" expanded="true" signature="5126:5293" ph="{&quot;has-success&quot;: contactForm.email.$valid...}" />
-            <marker date="1500067340600" expanded="true" signature="7447:7623" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>

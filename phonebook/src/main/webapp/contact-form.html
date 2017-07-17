@@ -1,0 +1,59 @@
+<div class="panel panel-default">
+    <div class="panel-heading">
+        <h3>Add Contact</h3>
+    </div>
+    <div class="panel-body">
+
+        <form ng-submit="saveContact()" name="contactForm" novalidate>
+
+            <div class="form-group" ng-class="{'has-error' : contactForm.name.$invalid && contactForm.name.$dirty,
+                                                            'has-success': contactForm.name.$valid}">
+                <label>Name:</label>
+                <input type="text" ng-model="contact.name" name="name"
+                       class="input-field form-control"
+                       placeholder="Name" required/>
+                <p ng-show="contactForm.name.$invalid && contactForm.name.$dirty" class="help-block">This field is required.</p>
+            </div>
+
+            <div class="form-group" ng-class="{'has-error' : contactForm.surname.$invalid && contactForm.surname.$dirty,
+                                                            'has-success': contactForm.surname.$valid}">
+                <label>Surname:</label>
+                <input type="text" ng-model="contact.surname" name="surname"
+                       class="input-field form-control"
+                       placeholder="Surname" required/>
+                <p ng-show="contactForm.surname.$invalid && contactForm.surname.$dirty" class="help-block">This field is required.</p>
+            </div>
+
+            <div class="form-group" ng-class="{'has-error' : contactForm.number.$invalid && contactForm.number.$dirty,
+                                                            'has-success': contactForm.number.$valid}">
+                <label>Number:</label>
+                <input type="tel" ng-model="contact.number" name="number"
+                       class="input-field form-control"
+                       placeholder="Phone number"
+                       ng-pattern="/^\+?\d+$/" required/>
+                <p ng-show="contactForm.number.$error.pattern" class="help-block ">Invalid number</p>
+                <p ng-show="contactForm.number.$error.required && contactForm.number.$dirty" class="help-block">This field is required.</p>
+            </div>
+
+            <div class="form-group" ng-class="{'has-error' : contactForm.email.$invalid && contactForm.email.$dirty,
+                                                            'has-success': contactForm.email.$valid}">
+                <label>Email:</label>
+                <input type="email" ng-model="contact.email" name="email"
+                       class="input-field form-control"
+                       placeholder="Email" required/>
+                <p ng-show="contactForm.email.$error.email" class="help-block ">Invalid email</p>
+                <p ng-show="contactForm.email.$error.required && contactForm.email.$dirty" class="help-block">This field is required.</p>
+            </div>
+
+            <div class="form-actions pull-right">
+                <button type="submit" type="reset" class="btn btn-success" ng-disabled="contactForm.$invalid">
+                    <span class="glyphicon glyphicon-plus"></span> Save</button>
+
+                <button type="reset" class="btn btn-danger" ng-click="closeForm()">
+                    <span class="glyphicon glyphicon-remove"></span> Cancel</button>
+                <!--value="{{!ctrl.user.id ? 'Add' : 'Update'}}"-->
+                <!--<button type="button" ng-click="ctrl.reset()" class="btn btn-warning btn-sm" ng-disabled="myForm.$pristine">Reset Form</button>-->
+            </div>
+        </form>
+    </div>
+</div>

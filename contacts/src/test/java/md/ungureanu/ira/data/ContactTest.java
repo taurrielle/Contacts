@@ -11,14 +11,12 @@ public class ContactTest {
     public void testSaveContact() throws Exception {
         Contact newContact = new Contact("Daniel", "Surdu", "078060742", "okdan96@gmail.com");
         Assertions.assertEquals(0, newContact.getId());
-
         DBConnection con = new DBConnection("testDB", "practica", "OKdan96_gmail_com");
         con.connectToDB();
         Statement statement = con.connect().createStatement();
         statement.addBatch("DELETE FROM contacts");
         statement.addBatch("ALTER TABLE contacts AUTO_INCREMENT = 1");
         statement.executeBatch();
-
         newContact.saveContact(con.connect());
         Assertions.assertNotEquals(0, newContact.getId());
         con.close();
