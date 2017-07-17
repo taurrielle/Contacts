@@ -13,7 +13,7 @@ public class Contact {
     private String surname;
     private String number;
     private String email;
-
+    public void setId(int cid) { id = cid; }
     public void setName(String cName){
         name = cName;
     }
@@ -140,5 +140,66 @@ public class Contact {
                 resultSet.close();
             }
         }
+    }
+
+    public void deleteContact(Connection connect) throws Exception {
+        PreparedStatement preparedStatement = null;
+        ResultSet resultSet = null;
+        try {
+            preparedStatement = (PreparedStatement) connect.prepareStatement(" DELETE FROM contacts WHERE id  = ?");
+            preparedStatement.setInt(1, id);
+            preparedStatement.executeUpdate();
+            //resetID(connect);
+        }
+        catch(SQLException se){
+            throw se;
+        }
+        catch (Exception e) {
+            throw e;
+        }
+        finally {
+            if(preparedStatement != null){
+                preparedStatement.close();
+            }
+            if(resultSet != null){
+                resultSet.close();
+            }
+        }
+    }
+
+    public void editContact(Connection connect) throws Exception {
+        PreparedStatement preparedStatement = null;
+        ResultSet resultSet = null;
+        try {
+            preparedStatement = (PreparedStatement) connect.prepareStatement("UPDATE contacts SET name = ?, surname = ?, number = ?, email = ? WHERE id = ?");
+            preparedStatement.setString(1, name);
+            preparedStatement.setString(2, surname);
+            preparedStatement.setString(3, number);
+            preparedStatement.setString(4, email);
+            preparedStatement.setInt(5, id);
+            preparedStatement.executeUpdate();
+        }
+        catch(SQLException se){
+            throw se;
+        }
+        catch (Exception e) {
+            throw e;
+        }
+        finally {
+            if(preparedStatement != null){
+                preparedStatement.close();
+            }
+            if(resultSet != null){
+                resultSet.close();
+            }
+        }
+    }
+
+    public void resetID(Connection connect) throws Exception {
+        Statement statement = connect.createStatement();
+        statement.addBatch("SET @num := 0;");
+        statement.addBatch("UPDATE contacts SET id = @num := (@num+1);");
+        statement.addBatch("ALTER TABLE contacts AUTO_INCREMENT=1");
+        statement.executeBatch();
     }
 }
