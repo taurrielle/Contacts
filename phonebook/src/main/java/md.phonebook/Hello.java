@@ -37,11 +37,6 @@ public class Hello {
         Contact contact = new Contact(Integer.parseInt(id));
         contact.getContact(con.connect());
 
-//        if (con != null) {
-//            logger.info("Inside getContactById, returned: " + contact.getName());
-//        } else {
-//            logger.info("Inside getContactById, ID: " + id + ", NOT FOUND!");
-//        }
         return contact;
     }
 
@@ -50,19 +45,44 @@ public class Hello {
     @Path("/put")
     @Consumes(MediaType.APPLICATION_JSON)
     @Produces(MediaType.APPLICATION_JSON)
-    public Response createContactInJSON(Contact contact) throws Exception {
+    public Contact createContactInJSON(Contact contact) throws Exception {
 
         DBConnection con = new DBConnection("testDB", "practica", "OKdan96_gmail_com");
         con.connectToDB();
 
         contact.saveContact(con.connect());
 
-        if(contact.getId() == 0) {
-            return Response.status(Response.Status.NOT_FOUND).build();
-        }
-        else{
-            return Response.ok(contact, MediaType.APPLICATION_JSON).build();
-        }
-        //return contact;
+//        if(contact.getId() == 0) {
+//            return Response.status(Response.Status.NOT_FOUND).build();
+//        }
+//        else{
+//            return Response.ok(contact, MediaType.APPLICATION_JSON).build();
+//        }
+        return contact;
+    }
+
+    @Path("{id}")
+    @GET
+    @Consumes({ MediaType.APPLICATION_JSON, MediaType.APPLICATION_XML })
+    @Produces({ MediaType.APPLICATION_JSON, MediaType.APPLICATION_XML })
+    public Contact editContactByID(@PathParam("id") String id) throws Exception {
+        DBConnection con = new DBConnection("testDB", "practica", "OKdan96_gmail_com");
+        con.connectToDB();
+        Contact contact = new Contact(Integer.parseInt(id));
+        contact.editContact(con.connect());
+        return contact;
+    }
+
+    @Path("{id}")
+    @DELETE
+    @Produces({ MediaType.APPLICATION_JSON, MediaType.APPLICATION_XML })
+    public Contact deleteContactByID(@PathParam("id") String id) throws Exception {
+
+        DBConnection con = new DBConnection("testDB", "practica", "OKdan96_gmail_com");
+        con.connectToDB();
+        Contact contact = new Contact(Integer.parseInt(id));
+        contact.deleteContact(con.connect());
+
+        return contact;
     }
 }
