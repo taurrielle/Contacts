@@ -62,13 +62,12 @@ public class Hello {
     }
 
     @Path("{id}")
-    @GET
+    @PUT
     @Consumes({ MediaType.APPLICATION_JSON, MediaType.APPLICATION_XML })
     @Produces({ MediaType.APPLICATION_JSON, MediaType.APPLICATION_XML })
-    public Contact editContactByID(@PathParam("id") String id) throws Exception {
+    public Contact editContactByID(Contact contact) throws Exception {
         DBConnection con = new DBConnection("testDB", "practica", "OKdan96_gmail_com");
         con.connectToDB();
-        Contact contact = new Contact(Integer.parseInt(id));
         contact.editContact(con.connect());
         return contact;
     }

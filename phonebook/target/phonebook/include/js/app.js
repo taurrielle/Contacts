@@ -109,8 +109,7 @@
 
             $scope.jsonObj = angular.toJson($scope.contact, false);
             console.log("[update] data: " + $scope.jsonObj);
-            console.log("addFlag" + $scope.addFlag);
-            var response = $http.get('/rest/contacts/' + id);
+            var response = $http.put('/rest/contacts/' + id, $scope.jsonObj);
             response.then(function(result, status) {
                 console.log("Inside edit operation..."
                     + angular.toJson(result.data, false) + ", status=" + status);
