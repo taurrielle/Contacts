@@ -11,8 +11,9 @@
                 <label>Name:</label>
                 <input type="text" ng-model="contact.name" name="name"
                        class="input-field form-control"
-                       placeholder="Name" required/>
-                <p ng-show="contactForm.name.$invalid && contactForm.name.$dirty" class="help-block">This field is required.</p>
+                       placeholder="Name" required ng-maxlength="20"/>
+                <p ng-show="contactForm.name.$error.maxlength" class="help-block ">Name is too long</p>
+                <p ng-show="contactForm.name.$required && contactForm.name.$dirty" class="help-block">This field is required.</p>
             </div>
 
             <div class="form-group" ng-class="{'has-error' : contactForm.surname.$invalid && contactForm.surname.$dirty,
@@ -20,8 +21,9 @@
                 <label>Surname:</label>
                 <input type="text" ng-model="contact.surname" name="surname"
                        class="input-field form-control"
-                       placeholder="Surname" required/>
-                <p ng-show="contactForm.surname.$invalid && contactForm.surname.$dirty" class="help-block">This field is required.</p>
+                       placeholder="Surname" required ng-maxlength="20"/>
+                <p ng-show="contactForm.surname.$error.maxlength" class="help-block ">Surname is too long</p>
+                <p ng-show="contactForm.surname.required && contactForm.surname.$dirty" class="help-block">This field is required.</p>
             </div>
 
             <div class="form-group" ng-class="{'has-error' : contactForm.number.$invalid && contactForm.number.$dirty,
