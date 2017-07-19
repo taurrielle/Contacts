@@ -113,9 +113,14 @@
             response.then(function(result, status) {
                 console.log("Inside edit operation..."
                     + angular.toJson(result.data, false) + ", status=" + status);
+
                 $scope.closeForm();
                 $scope.getContact(result.data.id);
-                $scope.contacts[result.data.id - 1] = result.data;
+                // $scope.contacts = $scope.contacts.filter(function( obj ) {
+                //     return obj.id !== result.data.id;
+                // });
+
+                // $scope.contacts[$scope.index] = result.data;
             });
 
             response.catch(function(result, status) {
