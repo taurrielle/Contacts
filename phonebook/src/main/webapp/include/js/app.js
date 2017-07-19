@@ -115,12 +115,17 @@
                     + angular.toJson(result.data, false) + ", status=" + status);
 
                 $scope.closeForm();
-                $scope.getContact(result.data.id);
-                // $scope.contacts = $scope.contacts.filter(function( obj ) {
-                //     return obj.id !== result.data.id;
-                // });
 
-                // $scope.contacts[$scope.index] = result.data;
+                for (i = 0; i < $scope.contacts.length; i++) {
+                    if ($scope.contacts[i].id == result.data.id)
+                    {
+                        $scope.contacts[i] = result.data;
+                    }
+                }
+
+                return $scope.contacts;
+
+                $scope.getContact(result.data.id);
             });
 
             response.catch(function(result, status) {
